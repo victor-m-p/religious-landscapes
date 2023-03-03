@@ -59,9 +59,13 @@ Distributed under the MIT Licence. See `LICENSE.txt` for more information.
 Please feel free to raise an issue in this repository or reach us through other channels:
 
 Simon DeDeo: [@LaboratoryMinds](https://twitter.com/LaboratoryMinds) sdedeo@andrew.cmu.edu
+
 Victor Poulsen: [@vic_moeller](https://twitter.com/vic_moeller) victormoeller@gmail.com
+
 Edward Slingerland: [@slingerland20](https://twitter.com/slingerland20) edward.slingerland@gmail.com
+
 Rachel Spicer: [@RachelASpicer](https://twitter.com/RachelASpicer) rachelaspicer@gmail.com
+
 Willis Monroe [@willismonroe](https://twitter.com/willismonroe) willismonroe@gmail.com
 
 # Acknowledgements
