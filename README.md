@@ -46,7 +46,7 @@ Data processed at various stages (e.g. raw data, preprocessed, model fits, etc.)
 Folder for non-code documents (e.g. todo-lists, ...)
 
 # Installation
-1. Clonse the repo
+1. Clone the repo
 ``` git clone https://github.com/victor_m_p/religious_landscapes.git ```
 
 2. Install Python/R/Julia environment (we will add this later)
