@@ -6,7 +6,7 @@ import itertools
 # read base data
 d = pd.read_csv('../data/raw/drh.csv')
 
-# only the group polls 
+# only the group pollsi 
 d = d[d['Poll'].str.contains('Group')]
 
 # select the columns that we need + reference documents 

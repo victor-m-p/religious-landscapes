@@ -16,7 +16,6 @@ d10_196
 ## 196 (Pauline) 
 d196 = d[d['Entry ID'] == 196]
 d196[d196['Question ID'] == 4685] # not here
-
 d196[d196['Question ID'] == 4676]
 
 
