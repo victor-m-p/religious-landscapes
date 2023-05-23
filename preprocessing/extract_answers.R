@@ -1,4 +1,4 @@
-# Preprocess DRH data
+# Extract answers of questions of interest
 
 # Load libraries
 library(tidyverse)
