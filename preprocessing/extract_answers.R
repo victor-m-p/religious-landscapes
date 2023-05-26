@@ -1,9 +1,5 @@
 # Extract answers of questions of interest
 
-# Load libraries
-library(tidyverse)
-library(data.table)
-
 # Load data
 data <- fread("../data/raw/drh.csv")
 
