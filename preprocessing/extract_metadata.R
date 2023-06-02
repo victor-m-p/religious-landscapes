@@ -223,4 +223,4 @@ metadata <- data_century %>%
   select(-`Entry name`)
 
 # Save entry metadata
-write_csv(metadata, "../data/raw/metadata.csv")
+write_csv(metadata, "../data/preprocessing/metadata.csv")
