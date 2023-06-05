@@ -74,54 +74,61 @@ df_expanded[question_ids] = df_expanded[question_ids].astype(int)
 df_expanded.columns.name = None # verify this 
 
 ### STEP 3: merge with metadata and re-weight ### 
+# function assumes one df with answers in correct format
+# and one df with metadata in correct format
+# and one column name with the region (e.g. 'World Region', or 'NGA)
+def merge_normalize_meta(df_answers: pd.DataFrame, 
+                         df_meta: pd.DataFrame,
+                         region_col: str) -> pd.DataFrame:
+    df_meta = df_meta[['Entry ID', region_col, 'Date']].drop_duplicates()
+    df = pd.merge(df_answers, df_meta, on='Entry ID', how ='inner')
+    df['weight'] = df.groupby(['Date', region_col])['weight'].transform(lambda x: x / x.sum())
+    return df
 
 ##### based on World Region #####
+df_wr = merge_normalize_meta(df_expanded, meta, 'World Region')
+df_NGA = merge_normalize_meta(df_expanded, meta, 'NGA')
 
-'''
-# Merge df_new and df_meta on Entry ID
-meta_wr = meta[['Entry ID', 'World Region', 'Date']].drop_duplicates()
-df_wr = pd.merge(df_expanded, meta_wr, on='Entry ID')
+##### STEP 4: save csv (for reference) and txt (for .mpf) #####
+# takes curated dataframe, n_questions, max_nan
+# and meta_col (has to actually be the "region" column)
+def save_dat(df: pd.DataFrame, 
+             n_questions: int,
+             max_nan: int,
+             region_col: str) -> None:
+    
+    n_entries = len(df['Entry ID'].unique())
+    n_rows = len(df)
+    identifier = f'region_{region_col}_questions_{n_questions}_nan_{max_nan}_rows_{n_rows}_entries_{n_entries}'
 
-# Normalize weight within each group of Date and Region
-df_wr['weight'] = df_wr.groupby(['Date', 'World Region'])['weight'].transform(lambda x: x / x.sum())
+    # save to .csv 
+    df.to_csv(f'../data/mdl_reference/{identifier}.csv', index=False)
+    
+    # conversion dict 
+    conversion_dict = {
+        '-1': '0',
+        '0': 'X',
+        '1': '1'}
 
-df_wr.sort_values(['Date', 'World Region'], ascending=False)
-'''
+    # take out bit strings for each row
+    question_matrix = df.drop(['Entry ID', 'weight', region_col, 'Date'], axis=1).values
+    bit_strings = ["".join(conversion_dict.get(str(int(x))) for x in row) for row in question_matrix]
 
-##### based on NGA #####
+    # get the weights for each row
+    weight_strings = df['weight'].astype(str).tolist()
 
-# Merge df_new and df_meta on Entry ID
-meta_NGA = meta[['Entry ID', 'NGA', 'Date']].drop_duplicates()
-df_NGA = pd.merge(df_expanded, meta_NGA, on='Entry ID', how ='inner')
+    rows, cols = question_matrix.shape
+    with open(f'../data/mdl_input/{identifier}.txt', 'w') as f: 
+        f.write(f'{rows}\n{cols}\n')
+        for bit, weight in zip(bit_strings, weight_strings): 
+            f.write(f'{bit} {weight}\n')
 
-# Normalize weight within each group of Date and Region
-df_NGA['weight'] = df_NGA.groupby(['Date', 'NGA'])['weight'].transform(lambda x: x / x.sum())
+save_dat(df_NGA, 
+         n_questions,
+         max_nan,
+         'NGA')
 
-##### STEP 4: convert to .mpf format and save files #####
-# identifier for each unique curated dataset 
-n_entries = len(df_NGA['Entry ID'].unique())
-n_rows = len(df_NGA)
-identifier = f'questions_{n_questions}_nan_{max_nan}_rows_{n_rows}_entries_{n_entries}'
-
-# save to .csv 
-df_NGA.to_csv(f'../data/mdl_reference/{identifier}.csv', index=False)
-
-# save data mpf (.txt)
-## conversion dict 
-conversion_dict = {
-    '-1': '0',
-    '0': 'X',
-    '1': '1'}
-
-## take out bit strings for each row
-question_matrix = df_NGA.drop(['Entry ID', 'weight', 'NGA', 'Date'], axis=1).values
-bit_strings = ["".join(conversion_dict.get(str(int(x))) for x in row) for row in question_matrix]
-
-## get the weights for each row
-weight_strings = df_NGA['weight'].astype(str).tolist()
-
-rows, cols = question_matrix.shape
-with open(f'../data/mdl_input/{identifier}.txt', 'w') as f: 
-    f.write(f'{rows}\n{cols}\n')
-    for bit, weight in zip(bit_strings, weight_strings): 
-        f.write(f'{bit} {weight}\n')
+save_dat(df_wr,
+         n_questions,
+         max_nan,
+         'World Region')
