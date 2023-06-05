@@ -220,8 +220,18 @@ data_NGA <- bind_cols(region_no_NGA, NGA_df) %>%
   
 # Combine region and time metadata for export
 metadata <- data_century %>%
-  left_join(data_NGA, by = join_by(`Entry name`, `Entry ID`), relationship = "many-to-many") %>%
+  left_join(data_NGA, by = join_by(`Entry name`, `Entry ID`), relationship = "many-to-many") 
+
+# Extract entry name and ID for output
+entries <- metadata %>%
+  select(`Entry ID`, `Entry name`) %>%
+  rename(Entry = `Entry name`) %>%
+  distinct()
+
+# Remove name for export
+metadata <- metadata %>%
   select(-`Entry name`)
 
 # Save entry metadata
 write_csv(metadata, "../data/preprocessing/metadata.csv")
+write_csv(entries, "../data/preprocessing/entries.csv")

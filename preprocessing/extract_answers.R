@@ -48,7 +48,7 @@ questions <- c("Is there violent conflict (within sample region):",
 
 # Select questions of interest
 group_qoi <- data_group[Question %in% questions][
-  , list(`Entry ID`, `Entry name`,`Question ID`, Question, `Parent question`, Answers, `Parent answer`)][
+  , list(`Entry ID`, `Entry name`, `Question ID`, Question, `Parent question`, Answers, `Parent answer`)][
     Answers != "Field doesn't know" & Answers != "I don't know"]
 
 # Extract missing parent questions
@@ -100,5 +100,11 @@ data_filled <- bind_rows(group_qoi, filled_qoi) %>%
 answers <- data_filled %>%
   select(`Entry ID`, `Question ID`, Answers)
 
+# Extract questions of interest's names
+questions_names <- group_qoi %>%
+  select(`Question ID`, Question) %>%
+  distinct()
+
 # Save question data
 write_csv(answers, "../data/preprocessing/answers.csv")
+write_csv(questions_names, "../data/preprocessing/questions.csv")
