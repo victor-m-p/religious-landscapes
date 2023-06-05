@@ -1521,16 +1521,8 @@ Entry ID,Date,NGA,World Region
 535,200,Middle Ganga,South Asia
 535,200,Deccan,South Asia
 535,200,Garo Hills,South Asia
-535,200,Kachi Plain,South Asia
-535,200,Middle Ganga,South Asia
-535,200,Deccan,South Asia
-535,200,Garo Hills,South Asia
 535,200,Cambodian Basin,Southeast Asia
 535,200,Central Java,Southeast Asia
-535,300,Kachi Plain,South Asia
-535,300,Middle Ganga,South Asia
-535,300,Deccan,South Asia
-535,300,Garo Hills,South Asia
 535,300,Kachi Plain,South Asia
 535,300,Middle Ganga,South Asia
 535,300,Deccan,South Asia
@@ -1541,16 +1533,8 @@ Entry ID,Date,NGA,World Region
 535,400,Middle Ganga,South Asia
 535,400,Deccan,South Asia
 535,400,Garo Hills,South Asia
-535,400,Kachi Plain,South Asia
-535,400,Middle Ganga,South Asia
-535,400,Deccan,South Asia
-535,400,Garo Hills,South Asia
 535,400,Cambodian Basin,Southeast Asia
 535,400,Central Java,Southeast Asia
-535,500,Kachi Plain,South Asia
-535,500,Middle Ganga,South Asia
-535,500,Deccan,South Asia
-535,500,Garo Hills,South Asia
 535,500,Kachi Plain,South Asia
 535,500,Middle Ganga,South Asia
 535,500,Deccan,South Asia
@@ -1561,16 +1545,8 @@ Entry ID,Date,NGA,World Region
 535,600,Middle Ganga,South Asia
 535,600,Deccan,South Asia
 535,600,Garo Hills,South Asia
-535,600,Kachi Plain,South Asia
-535,600,Middle Ganga,South Asia
-535,600,Deccan,South Asia
-535,600,Garo Hills,South Asia
 535,600,Cambodian Basin,Southeast Asia
 535,600,Central Java,Southeast Asia
-535,700,Kachi Plain,South Asia
-535,700,Middle Ganga,South Asia
-535,700,Deccan,South Asia
-535,700,Garo Hills,South Asia
 535,700,Kachi Plain,South Asia
 535,700,Middle Ganga,South Asia
 535,700,Deccan,South Asia
@@ -1581,16 +1557,8 @@ Entry ID,Date,NGA,World Region
 535,800,Middle Ganga,South Asia
 535,800,Deccan,South Asia
 535,800,Garo Hills,South Asia
-535,800,Kachi Plain,South Asia
-535,800,Middle Ganga,South Asia
-535,800,Deccan,South Asia
-535,800,Garo Hills,South Asia
 535,800,Cambodian Basin,Southeast Asia
 535,800,Central Java,Southeast Asia
-535,900,Kachi Plain,South Asia
-535,900,Middle Ganga,South Asia
-535,900,Deccan,South Asia
-535,900,Garo Hills,South Asia
 535,900,Kachi Plain,South Asia
 535,900,Middle Ganga,South Asia
 535,900,Deccan,South Asia
@@ -1601,26 +1569,14 @@ Entry ID,Date,NGA,World Region
 535,1000,Middle Ganga,South Asia
 535,1000,Deccan,South Asia
 535,1000,Garo Hills,South Asia
-535,1000,Kachi Plain,South Asia
-535,1000,Middle Ganga,South Asia
-535,1000,Deccan,South Asia
-535,1000,Garo Hills,South Asia
 535,1000,Cambodian Basin,Southeast Asia
 535,1000,Central Java,Southeast Asia
 535,1100,Kachi Plain,South Asia
 535,1100,Middle Ganga,South Asia
 535,1100,Deccan,South Asia
 535,1100,Garo Hills,South Asia
-535,1100,Kachi Plain,South Asia
-535,1100,Middle Ganga,South Asia
-535,1100,Deccan,South Asia
-535,1100,Garo Hills,South Asia
 535,1100,Cambodian Basin,Southeast Asia
 535,1100,Central Java,Southeast Asia
-535,1200,Kachi Plain,South Asia
-535,1200,Middle Ganga,South Asia
-535,1200,Deccan,South Asia
-535,1200,Garo Hills,South Asia
 535,1200,Kachi Plain,South Asia
 535,1200,Middle Ganga,South Asia
 535,1200,Deccan,South Asia
@@ -2586,10 +2542,6 @@ Entry ID,Date,NGA,World Region
 884,2000,Ghanaian Coast,Africa
 883,1900,Middle Yellow River Valley,East Asia
 883,1900,Southern China Hills,East Asia
-883,1900,Middle Yellow River Valley,East Asia
-883,1900,Southern China Hills,East Asia
-883,2000,Middle Yellow River Valley,East Asia
-883,2000,Southern China Hills,East Asia
 883,2000,Middle Yellow River Valley,East Asia
 883,2000,Southern China Hills,East Asia
 886,1900,Paris Basin,Europe
@@ -2904,28 +2856,13 @@ Entry ID,Date,NGA,World Region
 942,1800,Deccan,South Asia
 942,1800,Cahokia,North America
 942,1800,Finger Lakes,North America
-942,1800,Ghanaian Coast,Africa
-942,1800,Middle Ganga,South Asia
-942,1800,Deccan,South Asia
-942,1800,Cahokia,North America
-942,1800,Finger Lakes,North America
 942,1800,Big Island Hawaii,Oceania-Australia
 942,1900,Ghanaian Coast,Africa
 942,1900,Middle Ganga,South Asia
 942,1900,Deccan,South Asia
 942,1900,Cahokia,North America
 942,1900,Finger Lakes,North America
-942,1900,Ghanaian Coast,Africa
-942,1900,Middle Ganga,South Asia
-942,1900,Deccan,South Asia
-942,1900,Cahokia,North America
-942,1900,Finger Lakes,North America
 942,1900,Big Island Hawaii,Oceania-Australia
-942,2000,Ghanaian Coast,Africa
-942,2000,Middle Ganga,South Asia
-942,2000,Deccan,South Asia
-942,2000,Cahokia,North America
-942,2000,Finger Lakes,North America
 942,2000,Ghanaian Coast,Africa
 942,2000,Middle Ganga,South Asia
 942,2000,Deccan,South Asia
@@ -3365,10 +3302,7 @@ Entry ID,Date,NGA,World Region
 885,-1600,Ghanaian Coast,Africa
 885,-1500,Ghanaian Coast,Africa
 980,1100,Kansai,East Asia
-980,1100,Kansai,East Asia
 980,1200,Kansai,East Asia
-980,1200,Kansai,East Asia
-980,1300,Kansai,East Asia
 980,1300,Kansai,East Asia
 981,1900,Finger Lakes,North America
 981,2000,Finger Lakes,North America
@@ -3680,50 +3614,27 @@ Entry ID,Date,NGA,World Region
 1108,500,Upper Egypt,Africa
 1108,600,Upper Egypt,Africa
 1125,-1200,Upper Egypt,Africa
-1125,-1200,Upper Egypt,Africa
-1125,-1100,Upper Egypt,Africa
 1125,-1100,Upper Egypt,Africa
 1125,-1000,Upper Egypt,Africa
-1125,-1000,Upper Egypt,Africa
-1125,-900,Upper Egypt,Africa
 1125,-900,Upper Egypt,Africa
 1125,-800,Upper Egypt,Africa
-1125,-800,Upper Egypt,Africa
-1125,-700,Upper Egypt,Africa
 1125,-700,Upper Egypt,Africa
 1125,-600,Upper Egypt,Africa
-1125,-600,Upper Egypt,Africa
-1125,-500,Upper Egypt,Africa
 1125,-500,Upper Egypt,Africa
 1125,-400,Upper Egypt,Africa
-1125,-400,Upper Egypt,Africa
-1125,-300,Upper Egypt,Africa
 1125,-300,Upper Egypt,Africa
 1125,-200,Upper Egypt,Africa
-1125,-200,Upper Egypt,Africa
-1125,-100,Upper Egypt,Africa
 1125,-100,Upper Egypt,Africa
 1125,-0,Upper Egypt,Africa
-1125,-0,Upper Egypt,Africa
-1125,100,Upper Egypt,Africa
 1125,100,Upper Egypt,Africa
 1125,200,Upper Egypt,Africa
-1125,200,Upper Egypt,Africa
-1125,300,Upper Egypt,Africa
 1125,300,Upper Egypt,Africa
 1125,400,Upper Egypt,Africa
-1125,400,Upper Egypt,Africa
-1125,500,Upper Egypt,Africa
 1125,500,Upper Egypt,Africa
 1125,600,Upper Egypt,Africa
-1125,600,Upper Egypt,Africa
-1125,700,Upper Egypt,Africa
 1125,700,Upper Egypt,Africa
 1125,800,Upper Egypt,Africa
-1125,800,Upper Egypt,Africa
 1125,900,Upper Egypt,Africa
-1125,900,Upper Egypt,Africa
-1125,1000,Upper Egypt,Africa
 1125,1000,Upper Egypt,Africa
 1127,1800,Kansai,East Asia
 1127,1900,Kansai,East Asia
@@ -3741,16 +3652,10 @@ Entry ID,Date,NGA,World Region
 1129,300,Upper Egypt,Africa
 1129,400,Upper Egypt,Africa
 1133,-300,Upper Egypt,Africa
-1133,-300,Upper Egypt,Africa
-1133,-200,Upper Egypt,Africa
 1133,-200,Upper Egypt,Africa
 1133,-100,Upper Egypt,Africa
-1133,-100,Upper Egypt,Africa
-1133,-0,Upper Egypt,Africa
 1133,-0,Upper Egypt,Africa
 1133,100,Upper Egypt,Africa
-1133,100,Upper Egypt,Africa
-1133,200,Upper Egypt,Africa
 1133,200,Upper Egypt,Africa
 1134,600,North Colombia,South America
 1134,700,North Colombia,South America
@@ -4268,38 +4173,22 @@ Entry ID,Date,NGA,World Region
 1357,100,Crete,Europe
 1357,100,Galilee,Southwest Asia
 1357,100,Konya Plain,Southwest Asia
-1357,100,Latium,Europe
-1357,100,Crete,Europe
 1357,100,Upper Egypt,Africa
-1357,100,Galilee,Southwest Asia
-1357,100,Konya Plain,Southwest Asia
 1357,200,Latium,Europe
 1357,200,Crete,Europe
 1357,200,Galilee,Southwest Asia
 1357,200,Konya Plain,Southwest Asia
-1357,200,Latium,Europe
-1357,200,Crete,Europe
 1357,200,Upper Egypt,Africa
-1357,200,Galilee,Southwest Asia
-1357,200,Konya Plain,Southwest Asia
 1357,300,Latium,Europe
 1357,300,Crete,Europe
 1357,300,Galilee,Southwest Asia
 1357,300,Konya Plain,Southwest Asia
-1357,300,Latium,Europe
-1357,300,Crete,Europe
 1357,300,Upper Egypt,Africa
-1357,300,Galilee,Southwest Asia
-1357,300,Konya Plain,Southwest Asia
 1357,400,Latium,Europe
 1357,400,Crete,Europe
 1357,400,Galilee,Southwest Asia
 1357,400,Konya Plain,Southwest Asia
-1357,400,Latium,Europe
-1357,400,Crete,Europe
 1357,400,Upper Egypt,Africa
-1357,400,Galilee,Southwest Asia
-1357,400,Konya Plain,Southwest Asia
 1333,100,Latium,Europe
 1333,100,Paris Basin,Europe
 1333,100,Upper Egypt,Africa
@@ -4452,16 +4341,10 @@ Entry ID,Date,NGA,World Region
 1451,-2400,Galilee,Southwest Asia
 1458,1900,Upper Egypt,Africa
 1456,-2000,Galilee,Southwest Asia
-1456,-2000,Galilee,Southwest Asia
-1456,-1900,Galilee,Southwest Asia
 1456,-1900,Galilee,Southwest Asia
 1456,-1800,Galilee,Southwest Asia
-1456,-1800,Galilee,Southwest Asia
-1456,-1700,Galilee,Southwest Asia
 1456,-1700,Galilee,Southwest Asia
 1456,-1600,Galilee,Southwest Asia
-1456,-1600,Galilee,Southwest Asia
-1456,-1500,Galilee,Southwest Asia
 1456,-1500,Galilee,Southwest Asia
 1461,1900,Iceland,Europe
 1466,1800,Paris Basin,Europe

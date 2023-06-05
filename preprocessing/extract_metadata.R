@@ -215,7 +215,8 @@ data_NGA <- bind_cols(region_no_NGA, NGA_df) %>%
   select(`Entry name`, `Entry ID`, NGA, World.Region) %>%
   distinct() %>%
   bind_rows(seshat_overlaps) %>%
-  rename(`World Region` = World.Region)
+  rename(`World Region` = World.Region) %>%
+  distinct()
   
 # Combine region and time metadata for export
 metadata <- data_century %>%
