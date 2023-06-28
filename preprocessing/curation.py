@@ -21,7 +21,7 @@ coverage = coverage[coverage['Question ID'].isin(question_coverage['Question ID'
 selected_questions = coverage[['Question ID']].drop_duplicates().reset_index(drop=True)
 
 ### STEP 1: remove Entries with more than x NAN ###
-max_nan = 10
+max_nan = 5
 n_required = n_questions - max_nan
 entry_coverage = coverage.groupby('Entry ID').size().reset_index(name='count').sort_values('count', ascending=False).reset_index(drop=True)
 entry_coverage = entry_coverage[entry_coverage['count'] >= n_required]
