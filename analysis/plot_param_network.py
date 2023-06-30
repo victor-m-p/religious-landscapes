@@ -2,13 +2,35 @@ import numpy as np
 import pandas as pd 
 import itertools 
 import networkx as nx 
-import seaborn as sns 
 import matplotlib.pyplot as plt 
+import os 
 
-n_questions=20
-filename = 'region_World_Region_questions_20_nan_5_rows_2350_entries_354'
-questions = pd.read_csv('../data/preprocessing/questions_with_labels.csv')
-param = np.loadtxt(f'../data/mdl_output/{filename}.txt_lam-0.984375_PNORM1_params.dat')
+### why do we get nan? ### 
+
+# setup
+n_nodes, n_nan, region_type, n_rows, n_entries=38, 10, 'World_Region', 3231, 300
+region_map={'World_Region': 'wr', 
+            'NGA': 'nga'}
+region_out=region_map[region_type]
+threshold=0.7
+show_n_links=40
+
+outpath = f'../fig/n{n_nodes}_nan{n_nan}_{region_out}'
+isExist = os.path.exists(outpath)
+if not isExist:
+   os.makedirs(outpath)
+
+# load 
+filename = f'region_{region_type}_questions_{n_nodes}_nan_{n_nan}_rows_{n_rows}_entries_{n_entries}'
+questions = pd.read_csv(f'../data/analysis/questions_with_labels_n{n_nodes}_nan{n_nan}_{region_out}.csv')
+param = np.loadtxt(f'../data/mdl_output/{filename}.txt_lam-0.5_PNORM1_params.dat')
+
+testdf=pd.DataFrame({
+    'v1': range(20),
+    'v2': range(20)
+})
+
+testdf['v1'].quantile(0.9)
 
 # helper functions
 def node_edge_lst(n, corr_J, means_h): 
@@ -64,7 +86,8 @@ def plot_network(n_nodes,
     d_edgelist = d_edgelist.assign(weight_abs = lambda x: np.abs(x['weight']))
 
     # try with thresholding 
-    d_edgelist_sub = d_edgelist[d_edgelist['weight_abs'] > threshold]
+    quantile=d_edgelist['weight_abs'].quantile(threshold)
+    d_edgelist_sub = d_edgelist[d_edgelist['weight_abs'] > quantile]
     G, labeldict = create_graph(d_edgelist_sub, dct_nodes)
 
     # different labels now 
@@ -77,7 +100,7 @@ def plot_network(n_nodes,
     pos = nx.nx_agraph.graphviz_layout(G, prog = "fdp")
 
     # plot 
-    fig, ax = plt.subplots(figsize = (6, 6), facecolor = 'w', dpi = 500)
+    fig, ax = plt.subplots(figsize = (8, 8), facecolor = 'w', dpi = 500)
     plt.axis('off')
 
     size_lst = list(nx.get_node_attributes(G, 'size').values())
@@ -115,15 +138,14 @@ def plot_network(n_nodes,
         plt.savefig(outpath, bbox_inches='tight')
     else: 
         plt.show(); 
-    
+
 seed = 1
 cmap = plt.cm.coolwarm
-
-plot_network(n_nodes = 20,
+plot_network(n_nodes = n_nodes,
              parameters = param,
              question_reference = questions,
              index_column='Question index',
              label_column='Question Short',
-             outpath='../fig/n20_nan5_wr/param_network.png',
-             threshold = 0.15,
-             n_questions = 25)
+             outpath=os.path.join(outpath, 'param_network.png'),
+             threshold = threshold,
+             n_questions = show_n_links)

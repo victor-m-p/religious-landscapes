@@ -1,0 +1,191 @@
+mutual_information,pair,question_idx_x,question_x,question_idx_y,question_y
+0.002356180135376945,"(1, 2)",1,violent conflict,2,proselytize
+0.013615914402941076,"(1, 3)",1,violent conflict,3,scriptures written
+0.23385199445703558,"(2, 3)",2,proselytize,3,scriptures written
+0.028513356937424517,"(1, 4)",1,violent conflict,4,monuments
+0.00010095107684326976,"(2, 4)",2,proselytize,4,monuments
+0.08136046578450762,"(3, 4)",3,scriptures written,4,monuments
+0.019704319969251927,"(1, 5)",1,violent conflict,5,mass gather
+0.004048004849437792,"(2, 5)",2,proselytize,5,mass gather
+0.012151731081696426,"(3, 5)",3,scriptures written,5,mass gather
+0.34238517475817004,"(4, 5)",4,monuments,5,mass gather
+4.582950554810061e-05,"(1, 6)",1,violent conflict,6,afterlife belief
+0.03343316475784375,"(2, 6)",2,proselytize,6,afterlife belief
+0.02155836030193259,"(3, 6)",3,scriptures written,6,afterlife belief
+0.012692097393895874,"(4, 6)",4,monuments,6,afterlife belief
+0.021643359144738028,"(5, 6)",5,mass gather,6,afterlife belief
+0.0002391883966375019,"(1, 7)",1,violent conflict,7,reincarnation karma
+0.030080257998303245,"(2, 7)",2,proselytize,7,reincarnation karma
+0.04152308539361818,"(3, 7)",3,scriptures written,7,reincarnation karma
+0.0005109558427460192,"(4, 7)",4,monuments,7,reincarnation karma
+0.020829657421772646,"(5, 7)",5,mass gather,7,reincarnation karma
+0.03933787920066953,"(6, 7)",6,afterlife belief,7,reincarnation karma
+0.008258496280913158,"(1, 8)",1,violent conflict,8,human sacrifice
+0.05768485262621967,"(2, 8)",2,proselytize,8,human sacrifice
+0.18096800917101621,"(3, 8)",3,scriptures written,8,human sacrifice
+0.0028341124818402064,"(4, 8)",4,monuments,8,human sacrifice
+0.08996606068208912,"(5, 8)",5,mass gather,8,human sacrifice
+0.0018491247655541762,"(6, 8)",6,afterlife belief,8,human sacrifice
+0.018154081093307656,"(7, 8)",7,reincarnation karma,8,human sacrifice
+0.00017430420465536223,"(1, 9)",1,violent conflict,9,supreme god
+0.07148639171966775,"(2, 9)",2,proselytize,9,supreme god
+0.07650221333767993,"(3, 9)",3,scriptures written,9,supreme god
+0.011785524865579378,"(4, 9)",4,monuments,9,supreme god
+0.028775536221727238,"(5, 9)",5,mass gather,9,supreme god
+0.0012167562461669612,"(6, 9)",6,afterlife belief,9,supreme god
+0.0008377358475866181,"(7, 9)",7,reincarnation karma,9,supreme god
+0.001184534497435441,"(8, 9)",8,human sacrifice,9,supreme god
+0.013657997809473188,"(1, 10)",1,violent conflict,10,supernat. monit. prosoc.
+0.0002242882213215891,"(2, 10)",2,proselytize,10,supernat. monit. prosoc.
+0.014062644747945385,"(3, 10)",3,scriptures written,10,supernat. monit. prosoc.
+0.13183818993287505,"(4, 10)",4,monuments,10,supernat. monit. prosoc.
+0.24666172487613863,"(5, 10)",5,mass gather,10,supernat. monit. prosoc.
+0.029251018067553855,"(6, 10)",6,afterlife belief,10,supernat. monit. prosoc.
+0.02448740090755308,"(7, 10)",7,reincarnation karma,10,supernat. monit. prosoc.
+0.14364768028275177,"(8, 10)",8,human sacrifice,10,supernat. monit. prosoc.
+0.07247505982956359,"(9, 10)",9,supreme god,10,supernat. monit. prosoc.
+0.0013449320660406938,"(1, 11)",1,violent conflict,11,supernat. care rituals
+0.06500202442146796,"(2, 11)",2,proselytize,11,supernat. care rituals
+0.03783809224778534,"(3, 11)",3,scriptures written,11,supernat. care rituals
+0.023797561658590816,"(4, 11)",4,monuments,11,supernat. care rituals
+0.09345833492607702,"(5, 11)",5,mass gather,11,supernat. care rituals
+0.05636756699326858,"(6, 11)",6,afterlife belief,11,supernat. care rituals
+0.06615548417722777,"(7, 11)",7,reincarnation karma,11,supernat. care rituals
+0.055201228382390055,"(8, 11)",8,human sacrifice,11,supernat. care rituals
+0.0004098165753575467,"(9, 11)",9,supreme god,11,supernat. care rituals
+0.24225306484934717,"(10, 11)",10,supernat. monit. prosoc.,11,supernat. care rituals
+0.00468593475988599,"(1, 12)",1,violent conflict,12,supernat. punish this life
+0.116968881074763,"(2, 12)",2,proselytize,12,supernat. punish this life
+0.14725325371498987,"(3, 12)",3,scriptures written,12,supernat. punish this life
+0.012948507243473517,"(4, 12)",4,monuments,12,supernat. punish this life
+0.049435797897475986,"(5, 12)",5,mass gather,12,supernat. punish this life
+0.053937483006924615,"(6, 12)",6,afterlife belief,12,supernat. punish this life
+0.05534208048320449,"(7, 12)",7,reincarnation karma,12,supernat. punish this life
+0.04831275475743646,"(8, 12)",8,human sacrifice,12,supernat. punish this life
+0.004959597356135381,"(9, 12)",9,supreme god,12,supernat. punish this life
+0.09340462002348526,"(10, 12)",10,supernat. monit. prosoc.,12,supernat. punish this life
+0.2280091881102651,"(11, 12)",11,supernat. care rituals,12,supernat. punish this life
+0.0024293590638451157,"(1, 13)",1,violent conflict,13,messianic
+0.3560051710990012,"(2, 13)",2,proselytize,13,messianic
+0.2365778968368783,"(3, 13)",3,scriptures written,13,messianic
+0.000599441860551192,"(4, 13)",4,monuments,13,messianic
+0.0007806568401365066,"(5, 13)",5,mass gather,13,messianic
+0.03131657662143775,"(6, 13)",6,afterlife belief,13,messianic
+0.022772983977630223,"(7, 13)",7,reincarnation karma,13,messianic
+0.05347235615496535,"(8, 13)",8,human sacrifice,13,messianic
+0.058223629679858696,"(9, 13)",9,supreme god,13,messianic
+3.5548056774137304e-05,"(10, 13)",10,supernat. monit. prosoc.,13,messianic
+0.046240628432344194,"(11, 13)",11,supernat. care rituals,13,messianic
+0.07772470885488614,"(12, 13)",12,supernat. punish this life,13,messianic
+0.026526582229288165,"(1, 14)",1,violent conflict,14,social norms prescribed
+0.03411450383639125,"(2, 14)",2,proselytize,14,social norms prescribed
+0.010774328236380804,"(3, 14)",3,scriptures written,14,social norms prescribed
+3.941562489107042e-05,"(4, 14)",4,monuments,14,social norms prescribed
+0.0017353473791645868,"(5, 14)",5,mass gather,14,social norms prescribed
+0.020353810643234632,"(6, 14)",6,afterlife belief,14,social norms prescribed
+0.013166739865094257,"(7, 14)",7,reincarnation karma,14,social norms prescribed
+0.010166445517005296,"(8, 14)",8,human sacrifice,14,social norms prescribed
+0.011915253806530357,"(9, 14)",9,supreme god,14,social norms prescribed
+0.0070529524988495185,"(10, 14)",10,supernat. monit. prosoc.,14,social norms prescribed
+0.03396599203039041,"(11, 14)",11,supernat. care rituals,14,social norms prescribed
+0.015693215707277774,"(12, 14)",12,supernat. punish this life,14,social norms prescribed
+0.02721734769511952,"(13, 14)",13,messianic,14,social norms prescribed
+0.00011142970255098583,"(1, 15)",1,violent conflict,15,celibacy required
+0.06677966214737867,"(2, 15)",2,proselytize,15,celibacy required
+0.0535584158213478,"(3, 15)",3,scriptures written,15,celibacy required
+0.0023500728710371677,"(4, 15)",4,monuments,15,celibacy required
+0.031148518743725664,"(5, 15)",5,mass gather,15,celibacy required
+0.03470499039594438,"(6, 15)",6,afterlife belief,15,celibacy required
+0.1519325771652498,"(7, 15)",7,reincarnation karma,15,celibacy required
+0.017329512005189694,"(8, 15)",8,human sacrifice,15,celibacy required
+0.0004658826314939135,"(9, 15)",9,supreme god,15,celibacy required
+0.02677591950509821,"(10, 15)",10,supernat. monit. prosoc.,15,celibacy required
+0.06700337612715263,"(11, 15)",11,supernat. care rituals,15,celibacy required
+0.1025985017200937,"(12, 15)",12,supernat. punish this life,15,celibacy required
+0.05563772712790105,"(13, 15)",13,messianic,15,celibacy required
+0.010050770539362375,"(14, 15)",14,social norms prescribed,15,celibacy required
+0.05431325582063462,"(1, 16)",1,violent conflict,16,food taboos
+0.029755580773299983,"(2, 16)",2,proselytize,16,food taboos
+0.009553741318887421,"(3, 16)",3,scriptures written,16,food taboos
+0.025933793899545754,"(4, 16)",4,monuments,16,food taboos
+0.00479889799899369,"(5, 16)",5,mass gather,16,food taboos
+0.0034785673743253642,"(6, 16)",6,afterlife belief,16,food taboos
+0.00027951850724178273,"(7, 16)",7,reincarnation karma,16,food taboos
+0.00014463304596246118,"(8, 16)",8,human sacrifice,16,food taboos
+0.04757497612143258,"(9, 16)",9,supreme god,16,food taboos
+0.00011014134546971643,"(10, 16)",10,supernat. monit. prosoc.,16,food taboos
+0.021890991054702047,"(11, 16)",11,supernat. care rituals,16,food taboos
+0.006389010347565449,"(12, 16)",12,supernat. punish this life,16,food taboos
+0.025686526119651054,"(13, 16)",13,messianic,16,food taboos
+0.09567284004712792,"(14, 16)",14,social norms prescribed,16,food taboos
+0.0007229470288370177,"(15, 16)",15,celibacy required,16,food taboos
+0.0012857514465742237,"(1, 17)",1,violent conflict,17,bodily alterations
+0.0395583627010925,"(2, 17)",2,proselytize,17,bodily alterations
+0.05003863041323009,"(3, 17)",3,scriptures written,17,bodily alterations
+0.0481123909363399,"(4, 17)",4,monuments,17,bodily alterations
+0.07556155922113011,"(5, 17)",5,mass gather,17,bodily alterations
+0.0017091305934646278,"(6, 17)",6,afterlife belief,17,bodily alterations
+0.005888983593770741,"(7, 17)",7,reincarnation karma,17,bodily alterations
+3.016922604148764e-05,"(8, 17)",8,human sacrifice,17,bodily alterations
+0.1957961780183561,"(9, 17)",9,supreme god,17,bodily alterations
+0.03232365561759348,"(10, 17)",10,supernat. monit. prosoc.,17,bodily alterations
+0.024744289543876252,"(11, 17)",11,supernat. care rituals,17,bodily alterations
+0.01003653768173099,"(12, 17)",12,supernat. punish this life,17,bodily alterations
+0.07057202881475476,"(13, 17)",13,messianic,17,bodily alterations
+0.03337505352734518,"(14, 17)",14,social norms prescribed,17,bodily alterations
+0.001057376930230891,"(15, 17)",15,celibacy required,17,bodily alterations
+0.14709386745641462,"(16, 17)",16,food taboos,17,bodily alterations
+0.00261595980178575,"(1, 18)",1,violent conflict,18,sacrifice time
+0.016004282743653286,"(2, 18)",2,proselytize,18,sacrifice time
+0.019730242690258804,"(3, 18)",3,scriptures written,18,sacrifice time
+0.00016198824067903406,"(4, 18)",4,monuments,18,sacrifice time
+0.010158633974211018,"(5, 18)",5,mass gather,18,sacrifice time
+0.02180208612626114,"(6, 18)",6,afterlife belief,18,sacrifice time
+0.06683819476695535,"(7, 18)",7,reincarnation karma,18,sacrifice time
+0.008027795980893537,"(8, 18)",8,human sacrifice,18,sacrifice time
+4.123578751125123e-05,"(9, 18)",9,supreme god,18,sacrifice time
+0.02044290079777311,"(10, 18)",10,supernat. monit. prosoc.,18,sacrifice time
+0.07448616980194467,"(11, 18)",11,supernat. care rituals,18,sacrifice time
+0.08194532504484164,"(12, 18)",12,supernat. punish this life,18,sacrifice time
+0.0021943643908189925,"(13, 18)",13,messianic,18,sacrifice time
+0.010089378066540922,"(14, 18)",14,social norms prescribed,18,sacrifice time
+0.013519509584856593,"(15, 18)",15,celibacy required,18,sacrifice time
+0.013178998785349672,"(16, 18)",16,food taboos,18,sacrifice time
+0.018062660798729868,"(17, 18)",17,bodily alterations,18,sacrifice time
+0.030642721992298783,"(1, 19)",1,violent conflict,19,small-scale rituals
+0.01478252921685319,"(2, 19)",2,proselytize,19,small-scale rituals
+0.0012918168130516827,"(3, 19)",3,scriptures written,19,small-scale rituals
+0.12393433862682468,"(4, 19)",4,monuments,19,small-scale rituals
+0.29876216168303416,"(5, 19)",5,mass gather,19,small-scale rituals
+0.030482211754698868,"(6, 19)",6,afterlife belief,19,small-scale rituals
+0.03432600903387334,"(7, 19)",7,reincarnation karma,19,small-scale rituals
+0.10013331803297776,"(8, 19)",8,human sacrifice,19,small-scale rituals
+0.04123678226868155,"(9, 19)",9,supreme god,19,small-scale rituals
+0.2761235809827526,"(10, 19)",10,supernat. monit. prosoc.,19,small-scale rituals
+0.10254058555484202,"(11, 19)",11,supernat. care rituals,19,small-scale rituals
+0.05298066309641897,"(12, 19)",12,supernat. punish this life,19,small-scale rituals
+0.010720549637131982,"(13, 19)",13,messianic,19,small-scale rituals
+0.003114724474641617,"(14, 19)",14,social norms prescribed,19,small-scale rituals
+0.04560141535503462,"(15, 19)",15,celibacy required,19,small-scale rituals
+0.001553293710122805,"(16, 19)",16,food taboos,19,small-scale rituals
+0.07360995571716433,"(17, 19)",17,bodily alterations,19,small-scale rituals
+0.02285713588068944,"(18, 19)",18,sacrifice time,19,small-scale rituals
+0.00035213179199677924,"(1, 20)",1,violent conflict,20,large-scale rituals
+0.05472112662839301,"(2, 20)",2,proselytize,20,large-scale rituals
+0.015963463463481986,"(3, 20)",3,scriptures written,20,large-scale rituals
+0.038471214113819596,"(4, 20)",4,monuments,20,large-scale rituals
+0.08006809591755937,"(5, 20)",5,mass gather,20,large-scale rituals
+0.06833266814836629,"(6, 20)",6,afterlife belief,20,large-scale rituals
+0.06372695279400586,"(7, 20)",7,reincarnation karma,20,large-scale rituals
+0.025443882264423734,"(8, 20)",8,human sacrifice,20,large-scale rituals
+0.003776561823966129,"(9, 20)",9,supreme god,20,large-scale rituals
+0.06857878892076263,"(10, 20)",10,supernat. monit. prosoc.,20,large-scale rituals
+0.1693254317009581,"(11, 20)",11,supernat. care rituals,20,large-scale rituals
+0.07030830707015157,"(12, 20)",12,supernat. punish this life,20,large-scale rituals
+0.04384818323561113,"(13, 20)",13,messianic,20,large-scale rituals
+0.027313634883960713,"(14, 20)",14,social norms prescribed,20,large-scale rituals
+0.03890624563610934,"(15, 20)",15,celibacy required,20,large-scale rituals
+0.019957089285986496,"(16, 20)",16,food taboos,20,large-scale rituals
+0.03439258625629105,"(17, 20)",17,bodily alterations,20,large-scale rituals
+0.0890933025159324,"(18, 20)",18,sacrifice time,20,large-scale rituals
+0.1515544274830367,"(19, 20)",19,small-scale rituals,20,large-scale rituals

@@ -6,13 +6,15 @@ import numpy as np
 import pandas as pd 
 import itertools 
 import networkx as nx 
-import seaborn as sns 
-import matplotlib.pyplot as plt 
 
-n_nodes=20
-filename = 'region_World_Region_questions_20_nan_5_rows_2350_entries_354'
-questions = pd.read_csv('../data/preprocessing/questions_with_labels.csv')
-parameters = np.loadtxt(f'../data/mdl_output/{filename}.txt_lam-0.984375_PNORM1_params.dat')
+n_nodes, n_nan, region_type, n_rows, n_entries=38, 10, 'World_Region', 3231, 300
+region_map={'World_Region': 'wr', 
+            'NGA': 'nga'}
+region_out=region_map[region_type]
+figpath=f'../fig/n{n_nodes}_nan{n_nan}_{region_out}'
+filename = f'region_{region_type}_questions_{n_nodes}_nan_{n_nan}_rows_{n_rows}_entries_{n_entries}'
+questions = pd.read_csv(f'../data/analysis/questions_with_labels_n{n_nodes}_nan{n_nan}_{region_out}.csv')
+parameters = np.loadtxt(f'../data/mdl_output/{filename}.txt_lam-0.5_PNORM1_params.dat')
 
 # create network without thresholding
 def node_edge_lst(n, corr_J, means_h): 
@@ -66,9 +68,8 @@ weighted_degree_df = pd.DataFrame.from_dict(weighted_degree_list,
 weighted_degree_df['Question index'] = weighted_degree_df.index
 weighted_degree_df=pd.merge(weighted_degree_df, questions_sub, on='Question index', how='inner')
 weighted_degree_df=weighted_degree_df.sort_values('weighted_degree', ascending=False)
-sns.pointplot(x='weighted_degree', y='Question Short', data=weighted_degree_df)
-plt.savefig('../fig/n20_nan5_wr/weighted_degree.png', bbox_inches='tight')
+weighted_degree_df.to_csv(f'../data/analysis/node_centrality_n{n_nodes}_nan{n_nan}_{region_out}.csv', index=False)
+
 ### bewteenness centrality (bridges)
 ### closeness centrality (avg. farness)
-
-## compute metrics with thresholding 
+### compute metrics with thresholding (or lasso--automatic)

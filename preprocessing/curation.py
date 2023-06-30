@@ -12,16 +12,20 @@ from itertools import product
 # import data
 d = pd.read_csv('../data/preprocessing/answers.csv')
 meta = pd.read_csv('../data/preprocessing/metadata.csv')
+# there are n=40 in d so here we subset to n=38 as agreed
+questions = pd.read_csv('../data/preprocessing/questions.csv') 
+questions = questions[['Question ID']]
+d = pd.merge(d, questions, on='Question ID', how='inner')
 
 ### STEP 0: select only the 20 best questions ###
-n_questions = 40
+n_questions = 38
 coverage = d.groupby(['Entry ID', 'Question ID']).size().reset_index(name='count').sort_values('count', ascending=False).reset_index(drop=True)
 question_coverage = coverage.groupby('Question ID').size().reset_index(name='count').sort_values('count', ascending=False).reset_index(drop=True).head(n_questions)
 coverage = coverage[coverage['Question ID'].isin(question_coverage['Question ID'])]
 selected_questions = coverage[['Question ID']].drop_duplicates().reset_index(drop=True)
 
 ### STEP 1: remove Entries with more than x NAN ###
-max_nan = 10
+max_nan = 5
 n_required = n_questions - max_nan
 entry_coverage = coverage.groupby('Entry ID').size().reset_index(name='count').sort_values('count', ascending=False).reset_index(drop=True)
 entry_coverage = entry_coverage[entry_coverage['count'] >= n_required]
