@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import os 
 
 # setup
-n_nodes, n_nan, region_type=38, 10, 'wr'
+n_nodes, n_nan, region_type=20, 10, 'wr'
 outpath = f'../fig/n{n_nodes}_nan{n_nan}_{region_type}'
 isExist = os.path.exists(outpath)
 if not isExist:

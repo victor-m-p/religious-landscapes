@@ -8,7 +8,7 @@ import os
 ### why do we get nan? ### 
 
 # setup
-n_nodes, n_nan, region_type, n_rows, n_entries=38, 10, 'World_Region', 3231, 300
+n_nodes, n_nan, region_type, n_rows, n_entries=20, 10, 'World_Region', 2770, 474
 region_map={'World_Region': 'wr', 
             'NGA': 'nga'}
 region_out=region_map[region_type]
