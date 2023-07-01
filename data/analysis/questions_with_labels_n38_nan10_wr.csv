@@ -1,39 +1,39 @@
 Question ID,Question,Question Short,Question index
-4658,Is there violent conflict (within sample region):,violent conflict within,1
-4659,Is there violent conflict (with groups outside the sample region):,violent conflict outside,2
+4658,Is there violent conflict (within sample region):,vio. conf. in,1
+4659,Is there violent conflict (with groups outside the sample region):,vio. conf. out,2
 4668,Does the religious group actively proselytize and recruit new members:,proselytize,3
-4681,Is religious observance enforced by the polity:,polity enforce observance,4
-4685,Are apostates prosecuted or punished:,apostates punished,5
-4730,Are they written:,scriptures written,6
-4740,Are there formal institutions (i.e. institutions that are authorized by the religious community or political leaders) for interpreting the scriptures:,formal inst. interpret scripture,7
+4681,Is religious observance enforced by the polity:,polity enf. obs.,4
+4685,Are apostates prosecuted or punished:,apos. punish,5
+4730,Are they written:,script. written,6
+4740,Are there formal institutions (i.e. institutions that are authorized by the religious community or political leaders) for interpreting the scriptures:,formal script. int.,7
 4745,Is monumental religious architecture present:,monuments,8
 4758,"Mass gathering point [plazas, courtyard, square. Places permanently demarcated using visible objects or structures]:",mass gather,9
 4762,Are pilgrimages present:,pilgrimages,10
 4780,Belief in afterlife:,afterlife belief,11
-4792,Reincarnation linked to notion of life-transcending causality (e.g. karma):,reincarnation karma,12
-4809,Human sacrifices present:,human sacrifice,13
+4792,Reincarnation linked to notion of life-transcending causality (e.g. karma):,reincarn. karma,12
+4809,Human sacrifices present:,human sac.,13
 4828,A supreme high god is present:,supreme god,14
-4955,There is supernatural monitoring of prosocial norm adherence in particular:,supernat. monit. prosoc.,15
-4964,Supernatural beings care about sex:,supernat. care sex,16
-4969,Supernatural beings care about honouring oaths:,supernat. care oaths,17
-4978,Supernatural beings care about performance of rituals:,supernat. care rituals,18
-4979,Supernatural beings care about conversion of non-religionists:,supernat. care conversion,19
-4991,Done to enforce group norms:,supernat. punish enforce norms,20
-4995,Supernatural punishments are meted out in the afterlife:,supernat. punish afterlife,21
-5002,Supernatural punishments are meted out in this lifetime:,supernat. punish this life,22
-5021,Done to enforce group norms:,supernat. rewards enforce norms,23
-5024,Supernatural rewards are bestowed out in the afterlife:,supernat. rewards afterlife,24
-5032,Supernatural rewards are bestowed out in this lifetime:,supernat. rewards this life,25
+4955,There is supernatural monitoring of prosocial norm adherence in particular:,sup. monit. prosoc.,15
+4964,Supernatural beings care about sex:,sup. care sex,16
+4969,Supernatural beings care about honouring oaths:,sup. care oat,17
+4978,Supernatural beings care about performance of rituals:,sup. care rit.,18
+4979,Supernatural beings care about conversion of non-religionists:,sup. care conv.,19
+4991,Done to enforce group norms:,sup. pun. enf. norm,20
+4995,Supernatural punishments are meted out in the afterlife:,sup. pun. afterlife,21
+5002,Supernatural punishments are meted out in this lifetime:,sup. pun. this life,22
+5021,Done to enforce group norms:,sup. rew. enf. norm,23
+5024,Supernatural rewards are bestowed out in the afterlife:,sup. rew. afterlife,24
+5032,Supernatural rewards are bestowed out in this lifetime:,sup. rew. this life,25
 5046,Are messianic beliefs present:,messianic,26
-5077,Are general social norms prescribed by the religious group:,social norms prescribed,27
-5078,Is there a conventional vs. moral distinction in the religious group:,conventional-moral distinction,28
-5121,Does membership in this religious group require celibacy (full sexual abstinence):,celibacy required,29
-5122,Does membership in this religious group require constraints on sexual activity (partial sexual abstinence):,constraints sexual activity,30
+5077,Are general social norms prescribed by the religious group:,soc. norms presc.,27
+5078,Is there a conventional vs. moral distinction in the religious group:,conv.-moral dist.,28
+5121,Does membership in this religious group require celibacy (full sexual abstinence):,celibacy req.,29
+5122,Does membership in this religious group require constraints on sexual activity (partial sexual abstinence):,const. sex. act.,30
 5129,Does membership in this religious group require forgone food opportunities (taboos on desired foods):,food taboos,31
-5130,Does membership in this religious group require permanent scarring or painful bodily alterations:,bodily alterations,32
-5143,Does membership in this religious group require sacrifice of property/valuable items:,sacrifice valuable goods,33
-5148,"Does membership in this religious group require sacrifice of time (e.g., attendance at meetings or services, regular prayer, etc.):",sacrifice time,34
+5130,Does membership in this religious group require permanent scarring or painful bodily alterations:,body alt.,32
+5143,Does membership in this religious group require sacrifice of property/valuable items:,sac. goods,33
+5148,"Does membership in this religious group require sacrifice of time (e.g., attendance at meetings or services, regular prayer, etc.):",sac. time,34
 5150,Does membership in this religious group require accepting ethical precepts:,ethical precepts,35
-5152,"Does membership in this religious group require participation in small-scale rituals (private, household):",small-scale rituals,36
-5154,Does membership in this religious group require participation in large-scale rituals:,large-scale rituals,37
+5152,"Does membership in this religious group require participation in small-scale rituals (private, household):",small-scale rit.,36
+5154,Does membership in this religious group require participation in large-scale rituals:,large-scale rit.,37
 5161,Are extra-ritual in-group markers present:,group markers,38

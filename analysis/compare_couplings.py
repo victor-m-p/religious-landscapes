@@ -81,3 +81,6 @@ d_edgelist_overlap.head(10)
 # normalized difference
 d_edgelist_overlap.sort_values('abs_difference_normalized', ascending=False, inplace=True)
 d_edgelist_overlap.head(10)
+
+# frustration cycles 
+# clusters --> evolution
