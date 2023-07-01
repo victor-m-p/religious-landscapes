@@ -9,7 +9,7 @@ import numpy as np
 from fun import p_dist, bin_states
 
 # setup
-n_nodes, n_nan, region_type, rows, entries=38, 10, 'World_Region', 3231, 300
+n_nodes, n_nan, region_type, rows, entries=38, 5, 'World_Region', 2692, 214
 region_map={'World_Region': 'wr', 
             'NGA': 'nga'}
 region_out=region_map[region_type]

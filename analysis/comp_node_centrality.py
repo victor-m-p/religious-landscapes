@@ -1,6 +1,7 @@
-# network psychometrics people use node strength (weighted degree)--
-# but this probably makes more sense for
-# the lasso case--although we can try. 
+'''
+currently just computes node strength (weighted absolute degree)
+but could also compute other metrics 
+'''
 
 import numpy as np 
 import pandas as pd 

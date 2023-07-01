@@ -1,6 +1,8 @@
-# check entropy
-# also against observed
-# especially human sacrifice seems weird
+'''
+This is just a sanity check--I thought that human sacrifice was not
+disfavored enough intuitively, so I wanted to make sure that we actually
+have a meaningful portion of data (cultures) with human sacrifice or unknown.
+'''
 
 import numpy as np 
 import pandas as pd  

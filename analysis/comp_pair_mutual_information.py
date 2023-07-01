@@ -1,10 +1,13 @@
+'''
+This currently is not relevant because it only works for <= n=20 nodes.
+'''
+
 import numpy as np 
 import pandas as pd  
 import math
 from scipy import stats 
 import itertools
 
-### cannot run this for n=38 because we do not have probabilities for configurations
 # setup
 n_nodes, n_nan, region_type=20, 5, 'wr'
 
