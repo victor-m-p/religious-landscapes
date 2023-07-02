@@ -8,6 +8,8 @@ and then output characteristics on other metrics
 
 import pandas as pd 
 import seaborn as sns 
+import os 
+import matplotlib.pyplot as plt 
 
 # load data
 metadata=pd.read_csv('../data/preprocessing/metadata.csv')
@@ -15,6 +17,7 @@ metadata=metadata.drop(columns=['NGA'])
 answers=pd.read_csv('../data/preprocessing/answers.csv')
 questions=pd.read_csv('../data/analysis/questions_with_labels_n38_nan10_wr.csv')
 questions=questions[['Question ID', 'Question Short']]
+outpath='../fig/spatiotemporal'
 
 # just bind these for now
 # of course we ideally need all of the weighting
@@ -28,7 +31,9 @@ metadata=metadata[metadata['Date']>=-2000]
 ### AGGREGATE IN TIME ###
 def quick_temporal_lineplot(df: pd.DataFrame, 
                             question_list: list=[],
-                            hue: list='Question Short'):
+                            hue: list='Question Short',
+                            identifier: str='',
+                            outpath: str='../fig/spatiotemporal'):
     if question_list: 
         df=df[df[hue].isin(question_list)]
         
@@ -36,12 +41,15 @@ def quick_temporal_lineplot(df: pd.DataFrame,
                  x='Date',
                  y='Answers', 
                  hue=hue)
+    
+    plt.savefig(os.path.join(outpath, f"temporal_{identifier}.png"))
 
 # C3: the bridge
 # these do not seem to covary (surprisingly).
 C3=['proselytize', 'apos. punish']
-quick_temporal_lineplot(metadata, 
-                        ['proselytize', 'apos. punish'])
+quick_temporal_lineplot(df=metadata, 
+                        question_list=C3,
+                        identifier='C3')
 
 # C2: messianic
 # clear -500 to 500 changepoint
@@ -52,15 +60,17 @@ quick_temporal_lineplot(metadata,
 C2=['const. sex. act.', 'sup. care conv.', 
     'messianic', 'sup. pun. afterlife',
     'sup. rew. afterlife']
-quick_temporal_lineplot(metadata,
-                        C2)
+quick_temporal_lineplot(df=metadata,
+                        question_list=C2,
+                        identifier='C2')
 
 # C1: monuments 
 # interesting dip around 0 
 # not sure what happens there 
 C1=['mass gather', 'monuments', 'pilgrimages']
-quick_temporal_lineplot(metadata,
-                        C1)
+quick_temporal_lineplot(df=metadata,
+                        question_list=C1,
+                        identifier='C1')
 
 # C4: supernatural care
 # this interestingly declines over time
@@ -68,15 +78,17 @@ quick_temporal_lineplot(metadata,
 C4=['sup. care rit.', 'sup. care sex',
     'sup. pun. this life', 'sup. monit. prosoc.',
     'sup. care oath']
-quick_temporal_lineplot(metadata,
-                        C4)
+quick_temporal_lineplot(df=metadata,
+                        question_list=C4,
+                        identifier='C4')
 
 # C5: afterlife--a bit of a mess
 C5=['reincarn. karma', 'afterlife belief',
     'soc. norms presc.', 'human sac.',
     'celibacy req.']
-quick_temporal_lineplot(metadata,
-                        C5)
+quick_temporal_lineplot(df=metadata,
+                        question_list=C5,
+                        identifier='C5')
 
 # assign communities to the questions
 def flatten(lst: list):
@@ -95,13 +107,16 @@ metadata_comm=metadata.merge(community_df, on='Question Short', how='inner')
 # the bridge (C3) looks negatively coupled to C4 (but is positive in data)
 quick_temporal_lineplot(metadata_comm,
                         question_list=['C2', 'C3', 'C4'],
-                        hue='community')
+                        hue='community',
+                        identifier='C2C3C4')
 
 ### AGGREGATE IN SPACE ###
 # should 
 def quick_spatial_boxplot(df: pd.DataFrame, 
                           question_list: list=[],
-                          hue: list='Question Short'):
+                          hue: list='Question Short',
+                          identifier: str='',
+                          outpath: str='../fig/spatiotemporal'):
     if question_list: 
         df=df[df[hue].isin(question_list)]
         
@@ -110,29 +125,35 @@ def quick_spatial_boxplot(df: pd.DataFrame,
                  y='World Region', 
                  hue=hue,
                  kind='bar')
+    
+    plt.savefig(os.path.join(outpath, f"spatial_{identifier}.png"))
 
 # C1: North America obvious outlier 
-quick_spatial_boxplot(metadata,
+quick_spatial_boxplot(df=metadata,
                       question_list=C1,
-                      hue='Question Short')
+                      hue='Question Short',
+                      identifier='C1')
 
 # C2: interesting disconnect for Oceania-Australia
-quick_spatial_boxplot(metadata,
+quick_spatial_boxplot(df=metadata,
                       question_list=C2,
-                      hue='Question Short')
+                      hue='Question Short',
+                      identifier='C2')
 
 # C3: proselytize consistently much higher than apostate punishment
 # really funky that these become so tightly coupled in model
 # this is probably what we should investigate next. 
-quick_spatial_boxplot(metadata,
+quick_spatial_boxplot(df=metadata,
                       question_list=C3,
-                      hue='Question Short')
+                      hue='Question Short',
+                      identifier='C3')
 
 # C4: clearly some can exist without others
 # but there is a lot of consistency.
-quick_spatial_boxplot(metadata,
+quick_spatial_boxplot(df=metadata,
                       question_list=C4,
-                      hue='Question Short')
+                      hue='Question Short',
+                      identifier='C4')
 
 ### GROUP IN SPACE + TIME ###
 space_time=metadata.groupby(['Question ID', 'Date', 'World Region']).agg(
