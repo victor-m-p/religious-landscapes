@@ -1,0 +1,704 @@
+n1,n2,weight,weight_abs,Question Short_x,Question Short_y
+1,2,-0.023331267042,0.023331267042,vio. conf. in,vio. conf. out
+1,3,-0.022455253564,0.022455253564,vio. conf. in,proselytize
+2,3,0.0052738592902,0.0052738592902,vio. conf. out,proselytize
+1,4,0.16654981991,0.16654981991,vio. conf. in,polity enf. obs.
+2,4,0.077629106445,0.077629106445,vio. conf. out,polity enf. obs.
+3,4,-0.013786398701,0.013786398701,proselytize,polity enf. obs.
+1,5,0.005529686014,0.005529686014,vio. conf. in,apos. punish
+2,5,0.13393626312,0.13393626312,vio. conf. out,apos. punish
+3,5,0.33883991449,0.33883991449,proselytize,apos. punish
+4,5,0.20540593189,0.20540593189,polity enf. obs.,apos. punish
+1,6,-0.083629387408,0.083629387408,vio. conf. in,script. written
+2,6,0.1919513397,0.1919513397,vio. conf. out,script. written
+3,6,0.0076233926451,0.0076233926451,proselytize,script. written
+4,6,0.0099864756151,0.0099864756151,polity enf. obs.,script. written
+5,6,0.11788824391,0.11788824391,apos. punish,script. written
+1,7,-0.048728558897,0.048728558897,vio. conf. in,formal script. int.
+2,7,-0.0012552161698,0.0012552161698,vio. conf. out,formal script. int.
+3,7,0.088205978179,0.088205978179,proselytize,formal script. int.
+4,7,-0.06641244043,0.06641244043,polity enf. obs.,formal script. int.
+5,7,-0.04273598965,0.04273598965,apos. punish,formal script. int.
+6,7,-0.050691120147,0.050691120147,script. written,formal script. int.
+1,8,0.12141780113,0.12141780113,vio. conf. in,monuments
+2,8,-0.067114725202,0.067114725202,vio. conf. out,monuments
+3,8,0.068331987014,0.068331987014,proselytize,monuments
+4,8,0.15042464303,0.15042464303,polity enf. obs.,monuments
+5,8,0.050541449361,0.050541449361,apos. punish,monuments
+6,8,-0.033789084418,0.033789084418,script. written,monuments
+7,8,0.13001822486,0.13001822486,formal script. int.,monuments
+1,9,0.1369562544,0.1369562544,vio. conf. in,mass gather
+2,9,-0.015614052571,0.015614052571,vio. conf. out,mass gather
+3,9,0.047181606253,0.047181606253,proselytize,mass gather
+4,9,0.12810622188,0.12810622188,polity enf. obs.,mass gather
+5,9,-0.0084591587187,0.0084591587187,apos. punish,mass gather
+6,9,0.031844132532,0.031844132532,script. written,mass gather
+7,9,0.068487311565,0.068487311565,formal script. int.,mass gather
+8,9,0.28657903155,0.28657903155,monuments,mass gather
+1,10,0.12915386329,0.12915386329,vio. conf. in,pilgrimages
+2,10,-0.049055117785,0.049055117785,vio. conf. out,pilgrimages
+3,10,-0.026893047294,0.026893047294,proselytize,pilgrimages
+4,10,0.18622128368,0.18622128368,polity enf. obs.,pilgrimages
+5,10,0.0071272154025,0.0071272154025,apos. punish,pilgrimages
+6,10,-0.0080823060928,0.0080823060928,script. written,pilgrimages
+7,10,0.039272146776,0.039272146776,formal script. int.,pilgrimages
+8,10,0.18087966551,0.18087966551,monuments,pilgrimages
+9,10,0.173591687,0.173591687,mass gather,pilgrimages
+1,11,0.013264787805,0.013264787805,vio. conf. in,afterlife belief
+2,11,0.12761208222,0.12761208222,vio. conf. out,afterlife belief
+3,11,0.14569489495,0.14569489495,proselytize,afterlife belief
+4,11,0.089210616809,0.089210616809,polity enf. obs.,afterlife belief
+5,11,0.15993002965,0.15993002965,apos. punish,afterlife belief
+6,11,0.077556218277,0.077556218277,script. written,afterlife belief
+7,11,0.075174384858,0.075174384858,formal script. int.,afterlife belief
+8,11,0.13106502899,0.13106502899,monuments,afterlife belief
+9,11,0.087137580126,0.087137580126,mass gather,afterlife belief
+10,11,0.13186035514,0.13186035514,pilgrimages,afterlife belief
+1,12,-0.052962387864,0.052962387864,vio. conf. in,reincarn. karma
+2,12,-0.15200554102,0.15200554102,vio. conf. out,reincarn. karma
+3,12,-0.18597252713,0.18597252713,proselytize,reincarn. karma
+4,12,-0.018946660372,0.018946660372,polity enf. obs.,reincarn. karma
+5,12,-0.14803543499,0.14803543499,apos. punish,reincarn. karma
+6,12,-0.078239950115,0.078239950115,script. written,reincarn. karma
+7,12,-0.015013363675,0.015013363675,formal script. int.,reincarn. karma
+8,12,-0.061549181211,0.061549181211,monuments,reincarn. karma
+9,12,-0.040471829359,0.040471829359,mass gather,reincarn. karma
+10,12,-0.043342546155,0.043342546155,pilgrimages,reincarn. karma
+11,12,-0.27467833285,0.27467833285,afterlife belief,reincarn. karma
+1,13,0.022336285163,0.022336285163,vio. conf. in,human sac.
+2,13,-0.17215091446,0.17215091446,vio. conf. out,human sac.
+3,13,-0.1013708936,0.1013708936,proselytize,human sac.
+4,13,-0.028548148342,0.028548148342,polity enf. obs.,human sac.
+5,13,-0.041951555504,0.041951555504,apos. punish,human sac.
+6,13,-0.086978928658,0.086978928658,script. written,human sac.
+7,13,-0.066505528476,0.066505528476,formal script. int.,human sac.
+8,13,0.044235891709,0.044235891709,monuments,human sac.
+9,13,0.083347205423,0.083347205423,mass gather,human sac.
+10,13,0.0055097467584,0.0055097467584,pilgrimages,human sac.
+11,13,-0.21678332668,0.21678332668,afterlife belief,human sac.
+12,13,0.074835280397,0.074835280397,reincarn. karma,human sac.
+1,14,0.13465671735,0.13465671735,vio. conf. in,supreme god
+2,14,-0.060609377903,0.060609377903,vio. conf. out,supreme god
+3,14,0.015023813715,0.015023813715,proselytize,supreme god
+4,14,0.10464312061,0.10464312061,polity enf. obs.,supreme god
+5,14,-0.012272123367,0.012272123367,apos. punish,supreme god
+6,14,-0.016453296244,0.016453296244,script. written,supreme god
+7,14,-0.002941581004,0.002941581004,formal script. int.,supreme god
+8,14,0.057494111583,0.057494111583,monuments,supreme god
+9,14,0.033986176759,0.033986176759,mass gather,supreme god
+10,14,0.086453939978,0.086453939978,pilgrimages,supreme god
+11,14,0.079191505625,0.079191505625,afterlife belief,supreme god
+12,14,-0.08449026089,0.08449026089,reincarn. karma,supreme god
+13,14,-0.080149517612,0.080149517612,human sac.,supreme god
+1,15,0.16387811363,0.16387811363,vio. conf. in,sup. monit. prosoc.
+2,15,0.039421280947,0.039421280947,vio. conf. out,sup. monit. prosoc.
+3,15,0.033217078907,0.033217078907,proselytize,sup. monit. prosoc.
+4,15,0.14077328926,0.14077328926,polity enf. obs.,sup. monit. prosoc.
+5,15,-0.054012871802,0.054012871802,apos. punish,sup. monit. prosoc.
+6,15,-0.01377864993,0.01377864993,script. written,sup. monit. prosoc.
+7,15,-0.045442910518,0.045442910518,formal script. int.,sup. monit. prosoc.
+8,15,0.062766512069,0.062766512069,monuments,sup. monit. prosoc.
+9,15,0.088898720465,0.088898720465,mass gather,sup. monit. prosoc.
+10,15,0.09794921974,0.09794921974,pilgrimages,sup. monit. prosoc.
+11,15,0.028392867803,0.028392867803,afterlife belief,sup. monit. prosoc.
+12,15,-0.018721705249,0.018721705249,reincarn. karma,sup. monit. prosoc.
+13,15,-0.044813735023,0.044813735023,human sac.,sup. monit. prosoc.
+14,15,0.18547607267,0.18547607267,supreme god,sup. monit. prosoc.
+1,16,0.017541282396,0.017541282396,vio. conf. in,sup. care sex
+2,16,0.085157216695,0.085157216695,vio. conf. out,sup. care sex
+3,16,0.1762593869,0.1762593869,proselytize,sup. care sex
+4,16,-0.040548206247,0.040548206247,polity enf. obs.,sup. care sex
+5,16,0.085587446164,0.085587446164,apos. punish,sup. care sex
+6,16,0.10880640414,0.10880640414,script. written,sup. care sex
+7,16,0.0016829446906,0.0016829446906,formal script. int.,sup. care sex
+8,16,-0.027194217917,0.027194217917,monuments,sup. care sex
+9,16,-0.017306896195,0.017306896195,mass gather,sup. care sex
+10,16,0.0012369002196,0.0012369002196,pilgrimages,sup. care sex
+11,16,0.092764361233,0.092764361233,afterlife belief,sup. care sex
+12,16,-0.082332263682,0.082332263682,reincarn. karma,sup. care sex
+13,16,-0.094529687532,0.094529687532,human sac.,sup. care sex
+14,16,0.047598903502,0.047598903502,supreme god,sup. care sex
+15,16,0.18231355733,0.18231355733,sup. monit. prosoc.,sup. care sex
+1,17,0.19904073418,0.19904073418,vio. conf. in,sup. care oat
+2,17,0.027213396331,0.027213396331,vio. conf. out,sup. care oat
+3,17,0.062254977878,0.062254977878,proselytize,sup. care oat
+4,17,0.11043481682,0.11043481682,polity enf. obs.,sup. care oat
+5,17,0.0048409317884,0.0048409317884,apos. punish,sup. care oat
+6,17,-0.0089969962459,0.0089969962459,script. written,sup. care oat
+7,17,-0.027606707476,0.027606707476,formal script. int.,sup. care oat
+8,17,0.071200440379,0.071200440379,monuments,sup. care oat
+9,17,0.10216713867,0.10216713867,mass gather,sup. care oat
+10,17,0.09704955888,0.09704955888,pilgrimages,sup. care oat
+11,17,0.0726495651,0.0726495651,afterlife belief,sup. care oat
+12,17,-0.034754473446,0.034754473446,reincarn. karma,sup. care oat
+13,17,-0.067293729206,0.067293729206,human sac.,sup. care oat
+14,17,0.20122331912,0.20122331912,supreme god,sup. care oat
+15,17,0.33255602537,0.33255602537,sup. monit. prosoc.,sup. care oat
+16,17,0.18476803206,0.18476803206,sup. care sex,sup. care oat
+1,18,0.06644478294,0.06644478294,vio. conf. in,sup. care rit.
+2,18,0.17375631486,0.17375631486,vio. conf. out,sup. care rit.
+3,18,0.18618566055,0.18618566055,proselytize,sup. care rit.
+4,18,-0.0050496431901,0.0050496431901,polity enf. obs.,sup. care rit.
+5,18,0.14754921989,0.14754921989,apos. punish,sup. care rit.
+6,18,0.082991635309,0.082991635309,script. written,sup. care rit.
+7,18,-0.023625980129,0.023625980129,formal script. int.,sup. care rit.
+8,18,-0.0081443231837,0.0081443231837,monuments,sup. care rit.
+9,18,0.0099140645126,0.0099140645126,mass gather,sup. care rit.
+10,18,0.009077972631,0.009077972631,pilgrimages,sup. care rit.
+11,18,0.14642157065,0.14642157065,afterlife belief,sup. care rit.
+12,18,-0.11743251363,0.11743251363,reincarn. karma,sup. care rit.
+13,18,-0.14415686009,0.14415686009,human sac.,sup. care rit.
+14,18,0.10040119681,0.10040119681,supreme god,sup. care rit.
+15,18,0.23814002941,0.23814002941,sup. monit. prosoc.,sup. care rit.
+16,18,0.2579379417,0.2579379417,sup. care sex,sup. care rit.
+17,18,0.27652707152,0.27652707152,sup. care oat,sup. care rit.
+1,19,0.048750140171,0.048750140171,vio. conf. in,sup. care conv.
+2,19,-0.020249069648,0.020249069648,vio. conf. out,sup. care conv.
+3,19,0.031767494674,0.031767494674,proselytize,sup. care conv.
+4,19,0.030146905661,0.030146905661,polity enf. obs.,sup. care conv.
+5,19,-0.12760219862,0.12760219862,apos. punish,sup. care conv.
+6,19,0.0021296802941,0.0021296802941,script. written,sup. care conv.
+7,19,0.021673524406,0.021673524406,formal script. int.,sup. care conv.
+8,19,-0.026541332099,0.026541332099,monuments,sup. care conv.
+9,19,0.006764463277,0.006764463277,mass gather,sup. care conv.
+10,19,0.016760322193,0.016760322193,pilgrimages,sup. care conv.
+11,19,-0.13787996408,0.13787996408,afterlife belief,sup. care conv.
+12,19,0.063231447003,0.063231447003,reincarn. karma,sup. care conv.
+13,19,0.021476245095,0.021476245095,human sac.,sup. care conv.
+14,19,0.076700292091,0.076700292091,supreme god,sup. care conv.
+15,19,0.13382083043,0.13382083043,sup. monit. prosoc.,sup. care conv.
+16,19,0.092162138272,0.092162138272,sup. care sex,sup. care conv.
+17,19,0.1009546286,0.1009546286,sup. care oat,sup. care conv.
+18,19,-0.0031136375862,0.0031136375862,sup. care rit.,sup. care conv.
+1,20,-0.0085680134724,0.0085680134724,vio. conf. in,sup. pun. enf. norm
+2,20,0.037969503397,0.037969503397,vio. conf. out,sup. pun. enf. norm
+3,20,0.18149527598,0.18149527598,proselytize,sup. pun. enf. norm
+4,20,-0.12779531645,0.12779531645,polity enf. obs.,sup. pun. enf. norm
+5,20,0.026450488615,0.026450488615,apos. punish,sup. pun. enf. norm
+6,20,-0.016619786482,0.016619786482,script. written,sup. pun. enf. norm
+7,20,0.062096171401,0.062096171401,formal script. int.,sup. pun. enf. norm
+8,20,-0.0024481855917,0.0024481855917,monuments,sup. pun. enf. norm
+9,20,-0.038058179706,0.038058179706,mass gather,sup. pun. enf. norm
+10,20,-0.01109931414,0.01109931414,pilgrimages,sup. pun. enf. norm
+11,20,0.060679080847,0.060679080847,afterlife belief,sup. pun. enf. norm
+12,20,-0.091004437807,0.091004437807,reincarn. karma,sup. pun. enf. norm
+13,20,-0.15043969851,0.15043969851,human sac.,sup. pun. enf. norm
+14,20,0.057904918997,0.057904918997,supreme god,sup. pun. enf. norm
+15,20,0.065727089717,0.065727089717,sup. monit. prosoc.,sup. pun. enf. norm
+16,20,0.12679810208,0.12679810208,sup. care sex,sup. pun. enf. norm
+17,20,0.012892934358,0.012892934358,sup. care oat,sup. pun. enf. norm
+18,20,0.1116084582,0.1116084582,sup. care rit.,sup. pun. enf. norm
+19,20,0.028531010238,0.028531010238,sup. care conv.,sup. pun. enf. norm
+1,21,-0.015016665835,0.015016665835,vio. conf. in,sup. pun. afterlife
+2,21,-0.041760679976,0.041760679976,vio. conf. out,sup. pun. afterlife
+3,21,-0.023317327409,0.023317327409,proselytize,sup. pun. afterlife
+4,21,-0.020200391258,0.020200391258,polity enf. obs.,sup. pun. afterlife
+5,21,-0.11752608913,0.11752608913,apos. punish,sup. pun. afterlife
+6,21,0.0451664944,0.0451664944,script. written,sup. pun. afterlife
+7,21,-0.00029198066993,0.00029198066993,formal script. int.,sup. pun. afterlife
+8,21,-0.044017987566,0.044017987566,monuments,sup. pun. afterlife
+9,21,0.0063414389456,0.0063414389456,mass gather,sup. pun. afterlife
+10,21,-0.0014147396875,0.0014147396875,pilgrimages,sup. pun. afterlife
+11,21,-0.10022365612,0.10022365612,afterlife belief,sup. pun. afterlife
+12,21,0.039728713857,0.039728713857,reincarn. karma,sup. pun. afterlife
+13,21,-0.0010627636177,0.0010627636177,human sac.,sup. pun. afterlife
+14,21,0.10680784556,0.10680784556,supreme god,sup. pun. afterlife
+15,21,0.16300337439,0.16300337439,sup. monit. prosoc.,sup. pun. afterlife
+16,21,0.040769547169,0.040769547169,sup. care sex,sup. pun. afterlife
+17,21,0.17065702583,0.17065702583,sup. care oat,sup. pun. afterlife
+18,21,0.063166671033,0.063166671033,sup. care rit.,sup. pun. afterlife
+19,21,0.20267884053,0.20267884053,sup. care conv.,sup. pun. afterlife
+20,21,0.0005599087534,0.0005599087534,sup. pun. enf. norm,sup. pun. afterlife
+1,22,0.090442891752,0.090442891752,vio. conf. in,sup. pun. this life
+2,22,0.089666013319,0.089666013319,vio. conf. out,sup. pun. this life
+3,22,0.25183739055,0.25183739055,proselytize,sup. pun. this life
+4,22,0.040804149117,0.040804149117,polity enf. obs.,sup. pun. this life
+5,22,0.15428496248,0.15428496248,apos. punish,sup. pun. this life
+6,22,0.04378881372,0.04378881372,script. written,sup. pun. this life
+7,22,-0.040659518973,0.040659518973,formal script. int.,sup. pun. this life
+8,22,-0.0070166473612,0.0070166473612,monuments,sup. pun. this life
+9,22,0.028099900297,0.028099900297,mass gather,sup. pun. this life
+10,22,-0.022468285435,0.022468285435,pilgrimages,sup. pun. this life
+11,22,0.10141506668,0.10141506668,afterlife belief,sup. pun. this life
+12,22,-0.096986035464,0.096986035464,reincarn. karma,sup. pun. this life
+13,22,-0.090387546926,0.090387546926,human sac.,sup. pun. this life
+14,22,0.038267515333,0.038267515333,supreme god,sup. pun. this life
+15,22,0.15816279986,0.15816279986,sup. monit. prosoc.,sup. pun. this life
+16,22,0.16534242344,0.16534242344,sup. care sex,sup. pun. this life
+17,22,0.18259551567,0.18259551567,sup. care oat,sup. pun. this life
+18,22,0.27571819803,0.27571819803,sup. care rit.,sup. pun. this life
+19,22,-0.028216579677,0.028216579677,sup. care conv.,sup. pun. this life
+20,22,0.094142923622,0.094142923622,sup. pun. enf. norm,sup. pun. this life
+21,22,0.064951430618,0.064951430618,sup. pun. afterlife,sup. pun. this life
+1,23,0.084145468088,0.084145468088,vio. conf. in,sup. rew. enf. norm
+2,23,0.080770389334,0.080770389334,vio. conf. out,sup. rew. enf. norm
+3,23,-0.057098189555,0.057098189555,proselytize,sup. rew. enf. norm
+4,23,-0.034316755369,0.034316755369,polity enf. obs.,sup. rew. enf. norm
+5,23,0.020045223764,0.020045223764,apos. punish,sup. rew. enf. norm
+6,23,0.05273318546,0.05273318546,script. written,sup. rew. enf. norm
+7,23,-0.0099455171412,0.0099455171412,formal script. int.,sup. rew. enf. norm
+8,23,-0.022498387146,0.022498387146,monuments,sup. rew. enf. norm
+9,23,-0.015148913356,0.015148913356,mass gather,sup. rew. enf. norm
+10,23,0.002524653343,0.002524653343,pilgrimages,sup. rew. enf. norm
+11,23,-0.023248994935,0.023248994935,afterlife belief,sup. rew. enf. norm
+12,23,-0.016567818257,0.016567818257,reincarn. karma,sup. rew. enf. norm
+13,23,-0.017269156132,0.017269156132,human sac.,sup. rew. enf. norm
+14,23,0.071860875803,0.071860875803,supreme god,sup. rew. enf. norm
+15,23,0.086009284581,0.086009284581,sup. monit. prosoc.,sup. rew. enf. norm
+16,23,0.020227628684,0.020227628684,sup. care sex,sup. rew. enf. norm
+17,23,0.028197411568,0.028197411568,sup. care oat,sup. rew. enf. norm
+18,23,0.05387289855,0.05387289855,sup. care rit.,sup. rew. enf. norm
+19,23,0.017273998193,0.017273998193,sup. care conv.,sup. rew. enf. norm
+20,23,0.15606567696,0.15606567696,sup. pun. enf. norm,sup. rew. enf. norm
+21,23,0.061266066556,0.061266066556,sup. pun. afterlife,sup. rew. enf. norm
+22,23,-0.0026019791864,0.0026019791864,sup. pun. this life,sup. rew. enf. norm
+1,24,0.019278809027,0.019278809027,vio. conf. in,sup. rew. afterlife
+2,24,-0.011051646397,0.011051646397,vio. conf. out,sup. rew. afterlife
+3,24,-0.050119514669,0.050119514669,proselytize,sup. rew. afterlife
+4,24,-0.041912471556,0.041912471556,polity enf. obs.,sup. rew. afterlife
+5,24,-0.11623210595,0.11623210595,apos. punish,sup. rew. afterlife
+6,24,0.0001165375528,0.0001165375528,script. written,sup. rew. afterlife
+7,24,0.0077184905969,0.0077184905969,formal script. int.,sup. rew. afterlife
+8,24,-0.058958375328,0.058958375328,monuments,sup. rew. afterlife
+9,24,-0.023942076419,0.023942076419,mass gather,sup. rew. afterlife
+10,24,-0.010120421861,0.010120421861,pilgrimages,sup. rew. afterlife
+11,24,-0.074151505445,0.074151505445,afterlife belief,sup. rew. afterlife
+12,24,0.044404665592,0.044404665592,reincarn. karma,sup. rew. afterlife
+13,24,-0.030035719298,0.030035719298,human sac.,sup. rew. afterlife
+14,24,0.10963211638,0.10963211638,supreme god,sup. rew. afterlife
+15,24,0.13900492122,0.13900492122,sup. monit. prosoc.,sup. rew. afterlife
+16,24,0.040270894954,0.040270894954,sup. care sex,sup. rew. afterlife
+17,24,0.18255458633,0.18255458633,sup. care oat,sup. rew. afterlife
+18,24,0.069701149582,0.069701149582,sup. care rit.,sup. rew. afterlife
+19,24,0.15964294692,0.15964294692,sup. care conv.,sup. rew. afterlife
+20,24,0.015605425712,0.015605425712,sup. pun. enf. norm,sup. rew. afterlife
+21,24,0.27929719457,0.27929719457,sup. pun. afterlife,sup. rew. afterlife
+22,24,0.030847065195,0.030847065195,sup. pun. this life,sup. rew. afterlife
+23,24,0.061688461072,0.061688461072,sup. rew. enf. norm,sup. rew. afterlife
+1,25,0.19771954196,0.19771954196,vio. conf. in,sup. rew. this life
+2,25,-0.079390744474,0.079390744474,vio. conf. out,sup. rew. this life
+3,25,0.065958897108,0.065958897108,proselytize,sup. rew. this life
+4,25,0.1694896054,0.1694896054,polity enf. obs.,sup. rew. this life
+5,25,-0.012119311579,0.012119311579,apos. punish,sup. rew. this life
+6,25,-0.02243089142,0.02243089142,script. written,sup. rew. this life
+7,25,-0.036612689412,0.036612689412,formal script. int.,sup. rew. this life
+8,25,0.068390586118,0.068390586118,monuments,sup. rew. this life
+9,25,0.098343867119,0.098343867119,mass gather,sup. rew. this life
+10,25,0.071802260076,0.071802260076,pilgrimages,sup. rew. this life
+11,25,0.052176409053,0.052176409053,afterlife belief,sup. rew. this life
+12,25,0.0050922537581,0.0050922537581,reincarn. karma,sup. rew. this life
+13,25,-0.056328062312,0.056328062312,human sac.,sup. rew. this life
+14,25,0.15390991449,0.15390991449,supreme god,sup. rew. this life
+15,25,0.22006714995,0.22006714995,sup. monit. prosoc.,sup. rew. this life
+16,25,0.080619892714,0.080619892714,sup. care sex,sup. rew. this life
+17,25,0.26986668921,0.26986668921,sup. care oat,sup. rew. this life
+18,25,0.1702478398,0.1702478398,sup. care rit.,sup. rew. this life
+19,25,0.038520689988,0.038520689988,sup. care conv.,sup. rew. this life
+20,25,-0.021215775977,0.021215775977,sup. pun. enf. norm,sup. rew. this life
+21,25,0.10356730495,0.10356730495,sup. pun. afterlife,sup. rew. this life
+22,25,0.25311864698,0.25311864698,sup. pun. this life,sup. rew. this life
+23,25,-0.028021879774,0.028021879774,sup. rew. enf. norm,sup. rew. this life
+24,25,0.13409044277,0.13409044277,sup. rew. afterlife,sup. rew. this life
+1,26,-0.10605319546,0.10605319546,vio. conf. in,messianic
+2,26,0.016789448847,0.016789448847,vio. conf. out,messianic
+3,26,-0.037566629029,0.037566629029,proselytize,messianic
+4,26,-0.035799305311,0.035799305311,polity enf. obs.,messianic
+5,26,-0.10072347752,0.10072347752,apos. punish,messianic
+6,26,0.039846273257,0.039846273257,script. written,messianic
+7,26,-0.013128656981,0.013128656981,formal script. int.,messianic
+8,26,-0.042808333591,0.042808333591,monuments,messianic
+9,26,0.0033958140452,0.0033958140452,mass gather,messianic
+10,26,0.023210878636,0.023210878636,pilgrimages,messianic
+11,26,-0.094584114042,0.094584114042,afterlife belief,messianic
+12,26,0.023699695408,0.023699695408,reincarn. karma,messianic
+13,26,0.024820866896,0.024820866896,human sac.,messianic
+14,26,0.044368484683,0.044368484683,supreme god,messianic
+15,26,0.034873242738,0.034873242738,sup. monit. prosoc.,messianic
+16,26,-0.033279613301,0.033279613301,sup. care sex,messianic
+17,26,0.013128471645,0.013128471645,sup. care oat,messianic
+18,26,-0.09687921083,0.09687921083,sup. care rit.,messianic
+19,26,0.1829080524,0.1829080524,sup. care conv.,messianic
+20,26,-0.058003547558,0.058003547558,sup. pun. enf. norm,messianic
+21,26,0.20560092293,0.20560092293,sup. pun. afterlife,messianic
+22,26,-0.13582048015,0.13582048015,sup. pun. this life,messianic
+23,26,-0.019780151098,0.019780151098,sup. rew. enf. norm,messianic
+24,26,0.13674165287,0.13674165287,sup. rew. afterlife,messianic
+25,26,-0.069266065711,0.069266065711,sup. rew. this life,messianic
+1,27,0.15012670908,0.15012670908,vio. conf. in,soc. norms presc.
+2,27,0.16778070555,0.16778070555,vio. conf. out,soc. norms presc.
+3,27,0.064182681618,0.064182681618,proselytize,soc. norms presc.
+4,27,0.062434639006,0.062434639006,polity enf. obs.,soc. norms presc.
+5,27,0.11148096057,0.11148096057,apos. punish,soc. norms presc.
+6,27,0.088717449601,0.088717449601,script. written,soc. norms presc.
+7,27,-0.021082235125,0.021082235125,formal script. int.,soc. norms presc.
+8,27,-0.030912523619,0.030912523619,monuments,soc. norms presc.
+9,27,-0.045557181227,0.045557181227,mass gather,soc. norms presc.
+10,27,0.025480919735,0.025480919735,pilgrimages,soc. norms presc.
+11,27,0.20157525684,0.20157525684,afterlife belief,soc. norms presc.
+12,27,-0.12311104885,0.12311104885,reincarn. karma,soc. norms presc.
+13,27,-0.19086035188,0.19086035188,human sac.,soc. norms presc.
+14,27,0.075391209185,0.075391209185,supreme god,soc. norms presc.
+15,27,0.087485970732,0.087485970732,sup. monit. prosoc.,soc. norms presc.
+16,27,0.12068515045,0.12068515045,sup. care sex,soc. norms presc.
+17,27,0.13005120137,0.13005120137,sup. care oat,soc. norms presc.
+18,27,0.20632572277,0.20632572277,sup. care rit.,soc. norms presc.
+19,27,-0.14274954992,0.14274954992,sup. care conv.,soc. norms presc.
+20,27,0.081205438127,0.081205438127,sup. pun. enf. norm,soc. norms presc.
+21,27,-0.055604102738,0.055604102738,sup. pun. afterlife,soc. norms presc.
+22,27,0.15059065445,0.15059065445,sup. pun. this life,soc. norms presc.
+23,27,0.10880257744,0.10880257744,sup. rew. enf. norm,soc. norms presc.
+24,27,-0.02841656465,0.02841656465,sup. rew. afterlife,soc. norms presc.
+25,27,0.081382540742,0.081382540742,sup. rew. this life,soc. norms presc.
+26,27,-0.12994122319,0.12994122319,messianic,soc. norms presc.
+1,28,0.054753575138,0.054753575138,vio. conf. in,conv.-moral dist.
+2,28,-0.17452537127,0.17452537127,vio. conf. out,conv.-moral dist.
+3,28,0.068383259355,0.068383259355,proselytize,conv.-moral dist.
+4,28,0.024419136636,0.024419136636,polity enf. obs.,conv.-moral dist.
+5,28,-0.0025444834129,0.0025444834129,apos. punish,conv.-moral dist.
+6,28,-0.014139124981,0.014139124981,script. written,conv.-moral dist.
+7,28,0.025823164531,0.025823164531,formal script. int.,conv.-moral dist.
+8,28,0.058551162437,0.058551162437,monuments,conv.-moral dist.
+9,28,0.061364861626,0.061364861626,mass gather,conv.-moral dist.
+10,28,0.069523747455,0.069523747455,pilgrimages,conv.-moral dist.
+11,28,0.013596025137,0.013596025137,afterlife belief,conv.-moral dist.
+12,28,0.023138312048,0.023138312048,reincarn. karma,conv.-moral dist.
+13,28,0.020527655104,0.020527655104,human sac.,conv.-moral dist.
+14,28,0.088216082972,0.088216082972,supreme god,conv.-moral dist.
+15,28,0.099017997377,0.099017997377,sup. monit. prosoc.,conv.-moral dist.
+16,28,0.10618328299,0.10618328299,sup. care sex,conv.-moral dist.
+17,28,0.10421924837,0.10421924837,sup. care oat,conv.-moral dist.
+18,28,-0.013693661327,0.013693661327,sup. care rit.,conv.-moral dist.
+19,28,0.095346436725,0.095346436725,sup. care conv.,conv.-moral dist.
+20,28,0.045795382355,0.045795382355,sup. pun. enf. norm,conv.-moral dist.
+21,28,0.031890391612,0.031890391612,sup. pun. afterlife,conv.-moral dist.
+22,28,-0.037338953172,0.037338953172,sup. pun. this life,conv.-moral dist.
+23,28,-0.016191093837,0.016191093837,sup. rew. enf. norm,conv.-moral dist.
+24,28,0.022911855986,0.022911855986,sup. rew. afterlife,conv.-moral dist.
+25,28,0.067751836426,0.067751836426,sup. rew. this life,conv.-moral dist.
+26,28,0.077904006124,0.077904006124,messianic,conv.-moral dist.
+27,28,-0.00018481135299,0.00018481135299,soc. norms presc.,conv.-moral dist.
+1,29,-0.10820344139,0.10820344139,vio. conf. in,celibacy req.
+2,29,-0.099460302075,0.099460302075,vio. conf. out,celibacy req.
+3,29,-0.16724513858,0.16724513858,proselytize,celibacy req.
+4,29,-0.072110032482,0.072110032482,polity enf. obs.,celibacy req.
+5,29,-0.11809911808,0.11809911808,apos. punish,celibacy req.
+6,29,-0.1489172086,0.1489172086,script. written,celibacy req.
+7,29,0.035439873219,0.035439873219,formal script. int.,celibacy req.
+8,29,-0.0069851811671,0.0069851811671,monuments,celibacy req.
+9,29,-0.015192983596,0.015192983596,mass gather,celibacy req.
+10,29,-0.013654564783,0.013654564783,pilgrimages,celibacy req.
+11,29,-0.20142636268,0.20142636268,afterlife belief,celibacy req.
+12,29,0.16224899032,0.16224899032,reincarn. karma,celibacy req.
+13,29,0.21534638206,0.21534638206,human sac.,celibacy req.
+14,29,-0.11989805463,0.11989805463,supreme god,celibacy req.
+15,29,-0.11241386187,0.11241386187,sup. monit. prosoc.,celibacy req.
+16,29,-0.13606473414,0.13606473414,sup. care sex,celibacy req.
+17,29,-0.14050307596,0.14050307596,sup. care oat,celibacy req.
+18,29,-0.22523573505,0.22523573505,sup. care rit.,celibacy req.
+19,29,0.058053937211,0.058053937211,sup. care conv.,celibacy req.
+20,29,-0.052151007464,0.052151007464,sup. pun. enf. norm,celibacy req.
+21,29,0.035287187544,0.035287187544,sup. pun. afterlife,celibacy req.
+22,29,-0.23833707993,0.23833707993,sup. pun. this life,celibacy req.
+23,29,0.021865008802,0.021865008802,sup. rew. enf. norm,celibacy req.
+24,29,0.0029594422014,0.0029594422014,sup. rew. afterlife,celibacy req.
+25,29,-0.15977568395,0.15977568395,sup. rew. this life,celibacy req.
+26,29,0.11955804417,0.11955804417,messianic,celibacy req.
+27,29,-0.18141339756,0.18141339756,soc. norms presc.,celibacy req.
+28,29,0.021806365355,0.021806365355,conv.-moral dist.,celibacy req.
+1,30,-0.01197481293,0.01197481293,vio. conf. in,const. sex. act.
+2,30,-0.01450477327,0.01450477327,vio. conf. out,const. sex. act.
+3,30,-0.061036564585,0.061036564585,proselytize,const. sex. act.
+4,30,0.077459248813,0.077459248813,polity enf. obs.,const. sex. act.
+5,30,-0.19622075501,0.19622075501,apos. punish,const. sex. act.
+6,30,0.031129038766,0.031129038766,script. written,const. sex. act.
+7,30,0.044220273862,0.044220273862,formal script. int.,const. sex. act.
+8,30,-0.026185550322,0.026185550322,monuments,const. sex. act.
+9,30,0.014883836598,0.014883836598,mass gather,const. sex. act.
+10,30,0.045458750571,0.045458750571,pilgrimages,const. sex. act.
+11,30,-0.078521767065,0.078521767065,afterlife belief,const. sex. act.
+12,30,0.028644317763,0.028644317763,reincarn. karma,const. sex. act.
+13,30,-0.03956338788,0.03956338788,human sac.,const. sex. act.
+14,30,0.075510234886,0.075510234886,supreme god,const. sex. act.
+15,30,0.12044507524,0.12044507524,sup. monit. prosoc.,const. sex. act.
+16,30,0.052004960321,0.052004960321,sup. care sex,const. sex. act.
+17,30,0.095310049675,0.095310049675,sup. care oat,const. sex. act.
+18,30,-0.00057124011409,0.00057124011409,sup. care rit.,const. sex. act.
+19,30,0.21255890673,0.21255890673,sup. care conv.,const. sex. act.
+20,30,0.047063616646,0.047063616646,sup. pun. enf. norm,const. sex. act.
+21,30,0.19792144586,0.19792144586,sup. pun. afterlife,const. sex. act.
+22,30,-0.019617670477,0.019617670477,sup. pun. this life,const. sex. act.
+23,30,0.053042371944,0.053042371944,sup. rew. enf. norm,const. sex. act.
+24,30,0.14226589938,0.14226589938,sup. rew. afterlife,const. sex. act.
+25,30,0.058811821058,0.058811821058,sup. rew. this life,const. sex. act.
+26,30,0.17717429795,0.17717429795,messianic,const. sex. act.
+27,30,-0.02904415694,0.02904415694,soc. norms presc.,const. sex. act.
+28,30,0.12025167678,0.12025167678,conv.-moral dist.,const. sex. act.
+29,30,0.0029946686207,0.0029946686207,celibacy req.,const. sex. act.
+1,31,-0.15332105478,0.15332105478,vio. conf. in,food taboos
+2,31,0.15013777268,0.15013777268,vio. conf. out,food taboos
+3,31,0.012574840136,0.012574840136,proselytize,food taboos
+4,31,-0.030038300201,0.030038300201,polity enf. obs.,food taboos
+5,31,-0.0086483556784,0.0086483556784,apos. punish,food taboos
+6,31,0.070227527256,0.070227527256,script. written,food taboos
+7,31,0.035753000819,0.035753000819,formal script. int.,food taboos
+8,31,-0.10679010757,0.10679010757,monuments,food taboos
+9,31,-0.099860777467,0.099860777467,mass gather,food taboos
+10,31,-0.045234071483,0.045234071483,pilgrimages,food taboos
+11,31,0.00034284559392,0.00034284559392,afterlife belief,food taboos
+12,31,0.039339402078,0.039339402078,reincarn. karma,food taboos
+13,31,-0.052434856317,0.052434856317,human sac.,food taboos
+14,31,-0.12113259659,0.12113259659,supreme god,food taboos
+15,31,-0.024902962807,0.024902962807,sup. monit. prosoc.,food taboos
+16,31,0.042053514956,0.042053514956,sup. care sex,food taboos
+17,31,-0.047656766796,0.047656766796,sup. care oat,food taboos
+18,31,0.034860024585,0.034860024585,sup. care rit.,food taboos
+19,31,-0.057219114376,0.057219114376,sup. care conv.,food taboos
+20,31,0.055842185439,0.055842185439,sup. pun. enf. norm,food taboos
+21,31,-0.03798101405,0.03798101405,sup. pun. afterlife,food taboos
+22,31,0.013390083519,0.013390083519,sup. pun. this life,food taboos
+23,31,0.021504785158,0.021504785158,sup. rew. enf. norm,food taboos
+24,31,0.013090953921,0.013090953921,sup. rew. afterlife,food taboos
+25,31,-0.058521975452,0.058521975452,sup. rew. this life,food taboos
+26,31,-0.054931479358,0.054931479358,messianic,food taboos
+27,31,0.092197136733,0.092197136733,soc. norms presc.,food taboos
+28,31,-0.076821173515,0.076821173515,conv.-moral dist.,food taboos
+29,31,0.060765498094,0.060765498094,celibacy req.,food taboos
+30,31,0.0046490822424,0.0046490822424,const. sex. act.,food taboos
+1,32,-0.15446018705,0.15446018705,vio. conf. in,body alt.
+2,32,0.044258202825,0.044258202825,vio. conf. out,body alt.
+3,32,-0.022399597532,0.022399597532,proselytize,body alt.
+4,32,-0.14471312983,0.14471312983,polity enf. obs.,body alt.
+5,32,0.038909649141,0.038909649141,apos. punish,body alt.
+6,32,0.05118492471,0.05118492471,script. written,body alt.
+7,32,0.032889690322,0.032889690322,formal script. int.,body alt.
+8,32,-0.052121787521,0.052121787521,monuments,body alt.
+9,32,-0.054656968661,0.054656968661,mass gather,body alt.
+10,32,-0.079223702963,0.079223702963,pilgrimages,body alt.
+11,32,-0.11845026786,0.11845026786,afterlife belief,body alt.
+12,32,0.062834878573,0.062834878573,reincarn. karma,body alt.
+13,32,0.14419324025,0.14419324025,human sac.,body alt.
+14,32,-0.21094219217,0.21094219217,supreme god,body alt.
+15,32,-0.1698091105,0.1698091105,sup. monit. prosoc.,body alt.
+16,32,-0.036234047937,0.036234047937,sup. care sex,body alt.
+17,32,-0.21447736152,0.21447736152,sup. care oat,body alt.
+18,32,-0.10900106078,0.10900106078,sup. care rit.,body alt.
+19,32,0.019728693836,0.019728693836,sup. care conv.,body alt.
+20,32,-0.0011623131056,0.0011623131056,sup. pun. enf. norm,body alt.
+21,32,-0.09424148513,0.09424148513,sup. pun. afterlife,body alt.
+22,32,-0.084214160043,0.084214160043,sup. pun. this life,body alt.
+23,32,0.012409649058,0.012409649058,sup. rew. enf. norm,body alt.
+24,32,-0.058819465816,0.058819465816,sup. rew. afterlife,body alt.
+25,32,-0.21033223871,0.21033223871,sup. rew. this life,body alt.
+26,32,-0.020583298362,0.020583298362,messianic,body alt.
+27,32,-0.14199190461,0.14199190461,soc. norms presc.,body alt.
+28,32,-0.12211360182,0.12211360182,conv.-moral dist.,body alt.
+29,32,0.17813832783,0.17813832783,celibacy req.,body alt.
+30,32,-0.059755249942,0.059755249942,const. sex. act.,body alt.
+31,32,0.12791683664,0.12791683664,food taboos,body alt.
+1,33,-0.047613073406,0.047613073406,vio. conf. in,sac. goods
+2,33,-0.14894103581,0.14894103581,vio. conf. out,sac. goods
+3,33,-0.118976094,0.118976094,proselytize,sac. goods
+4,33,-0.080633804405,0.080633804405,polity enf. obs.,sac. goods
+5,33,-0.11400680269,0.11400680269,apos. punish,sac. goods
+6,33,-0.028946561486,0.028946561486,script. written,sac. goods
+7,33,0.030762827015,0.030762827015,formal script. int.,sac. goods
+8,33,0.017918237886,0.017918237886,monuments,sac. goods
+9,33,0.033955445477,0.033955445477,mass gather,sac. goods
+10,33,-0.0086252127569,0.0086252127569,pilgrimages,sac. goods
+11,33,-0.13025879342,0.13025879342,afterlife belief,sac. goods
+12,33,0.079547975808,0.079547975808,reincarn. karma,sac. goods
+13,33,0.14400453531,0.14400453531,human sac.,sac. goods
+14,33,-0.063399463815,0.063399463815,supreme god,sac. goods
+15,33,-0.070331111068,0.070331111068,sup. monit. prosoc.,sac. goods
+16,33,-0.065438207679,0.065438207679,sup. care sex,sac. goods
+17,33,-0.08625768049,0.08625768049,sup. care oat,sac. goods
+18,33,-0.12527815245,0.12527815245,sup. care rit.,sac. goods
+19,33,0.06032979689,0.06032979689,sup. care conv.,sac. goods
+20,33,-0.055185332058,0.055185332058,sup. pun. enf. norm,sac. goods
+21,33,0.0074676977057,0.0074676977057,sup. pun. afterlife,sac. goods
+22,33,-0.097077910086,0.097077910086,sup. pun. this life,sac. goods
+23,33,0.0010577775667,0.0010577775667,sup. rew. enf. norm,sac. goods
+24,33,-0.0021820607095,0.0021820607095,sup. rew. afterlife,sac. goods
+25,33,-0.07781861595,0.07781861595,sup. rew. this life,sac. goods
+26,33,0.047143382144,0.047143382144,messianic,sac. goods
+27,33,-0.15351639542,0.15351639542,soc. norms presc.,sac. goods
+28,33,-0.011375177816,0.011375177816,conv.-moral dist.,sac. goods
+29,33,0.14445538129,0.14445538129,celibacy req.,sac. goods
+30,33,0.0079348865305,0.0079348865305,const. sex. act.,sac. goods
+31,33,-0.010483947171,0.010483947171,food taboos,sac. goods
+32,33,0.11820145467,0.11820145467,body alt.,sac. goods
+1,34,-0.047690169421,0.047690169421,vio. conf. in,sac. time
+2,34,-0.10980281785,0.10980281785,vio. conf. out,sac. time
+3,34,-0.11241822517,0.11241822517,proselytize,sac. time
+4,34,-0.081232723456,0.081232723456,polity enf. obs.,sac. time
+5,34,-0.11643997392,0.11643997392,apos. punish,sac. time
+6,34,-0.027436223208,0.027436223208,script. written,sac. time
+7,34,0.018447586449,0.018447586449,formal script. int.,sac. time
+8,34,0.014535040185,0.014535040185,monuments,sac. time
+9,34,0.03988630419,0.03988630419,mass gather,sac. time
+10,34,-0.0041309019226,0.0041309019226,pilgrimages,sac. time
+11,34,-0.12727221203,0.12727221203,afterlife belief,sac. time
+12,34,0.074082982113,0.074082982113,reincarn. karma,sac. time
+13,34,0.1350788525,0.1350788525,human sac.,sac. time
+14,34,-0.063090203056,0.063090203056,supreme god,sac. time
+15,34,-0.068711114933,0.068711114933,sup. monit. prosoc.,sac. time
+16,34,-0.066894464927,0.066894464927,sup. care sex,sac. time
+17,34,-0.090307583242,0.090307583242,sup. care oat,sac. time
+18,34,-0.1231769161,0.1231769161,sup. care rit.,sac. time
+19,34,0.057094057706,0.057094057706,sup. care conv.,sac. time
+20,34,-0.057459484514,0.057459484514,sup. pun. enf. norm,sac. time
+21,34,0.017393978119,0.017393978119,sup. pun. afterlife,sac. time
+22,34,-0.10019149147,0.10019149147,sup. pun. this life,sac. time
+23,34,0.00025099815336,0.00025099815336,sup. rew. enf. norm,sac. time
+24,34,-0.024944175694,0.024944175694,sup. rew. afterlife,sac. time
+25,34,-0.076485009043,0.076485009043,sup. rew. this life,sac. time
+26,34,0.052028071574,0.052028071574,messianic,sac. time
+27,34,-0.15258981392,0.15258981392,soc. norms presc.,sac. time
+28,34,-0.016246775295,0.016246775295,conv.-moral dist.,sac. time
+29,34,0.14219120368,0.14219120368,celibacy req.,sac. time
+30,34,0.01084099954,0.01084099954,const. sex. act.,sac. time
+31,34,-0.0044642982867,0.0044642982867,food taboos,sac. time
+32,34,0.11862669989,0.11862669989,body alt.,sac. time
+33,34,-0.048724863652,0.048724863652,sac. goods,sac. time
+1,35,-0.058387797563,0.058387797563,vio. conf. in,ethical precepts
+2,35,-0.10650678183,0.10650678183,vio. conf. out,ethical precepts
+3,35,-0.11364701264,0.11364701264,proselytize,ethical precepts
+4,35,-0.093759094992,0.093759094992,polity enf. obs.,ethical precepts
+5,35,-0.10783572255,0.10783572255,apos. punish,ethical precepts
+6,35,-0.033637448809,0.033637448809,script. written,ethical precepts
+7,35,0.045695602812,0.045695602812,formal script. int.,ethical precepts
+8,35,0.0025025258937,0.0025025258937,monuments,ethical precepts
+9,35,0.025511715974,0.025511715974,mass gather,ethical precepts
+10,35,-0.019679403917,0.019679403917,pilgrimages,ethical precepts
+11,35,-0.13599822103,0.13599822103,afterlife belief,ethical precepts
+12,35,0.087314264725,0.087314264725,reincarn. karma,ethical precepts
+13,35,0.12787221702,0.12787221702,human sac.,ethical precepts
+14,35,-0.076969292491,0.076969292491,supreme god,ethical precepts
+15,35,-0.078606052748,0.078606052748,sup. monit. prosoc.,ethical precepts
+16,35,-0.073042162708,0.073042162708,sup. care sex,ethical precepts
+17,35,-0.099440122121,0.099440122121,sup. care oat,ethical precepts
+18,35,-0.13275749052,0.13275749052,sup. care rit.,ethical precepts
+19,35,0.063817340662,0.063817340662,sup. care conv.,ethical precepts
+20,35,-0.062698394029,0.062698394029,sup. pun. enf. norm,ethical precepts
+21,35,0.017456310215,0.017456310215,sup. pun. afterlife,ethical precepts
+22,35,-0.11102073313,0.11102073313,sup. pun. this life,ethical precepts
+23,35,-0.0050960318586,0.0050960318586,sup. rew. enf. norm,ethical precepts
+24,35,-0.01282020057,0.01282020057,sup. rew. afterlife,ethical precepts
+25,35,-0.086071730778,0.086071730778,sup. rew. this life,ethical precepts
+26,35,0.056943973686,0.056943973686,messianic,ethical precepts
+27,35,-0.15607701324,0.15607701324,soc. norms presc.,ethical precepts
+28,35,-0.022683074009,0.022683074009,conv.-moral dist.,ethical precepts
+29,35,0.15257479252,0.15257479252,celibacy req.,ethical precepts
+30,35,0.01908788047,0.01908788047,const. sex. act.,ethical precepts
+31,35,-0.00078316785276,0.00078316785276,food taboos,ethical precepts
+32,35,0.13166778372,0.13166778372,body alt.,ethical precepts
+33,35,-0.06149770408,0.06149770408,sac. goods,ethical precepts
+34,35,-0.10039473536,0.10039473536,sac. time,ethical precepts
+1,36,-0.034197760336,0.034197760336,vio. conf. in,small-scale rit.
+2,36,-0.10682726759,0.10682726759,vio. conf. out,small-scale rit.
+3,36,-0.12452076646,0.12452076646,proselytize,small-scale rit.
+4,36,-0.089354468006,0.089354468006,polity enf. obs.,small-scale rit.
+5,36,-0.12235424529,0.12235424529,apos. punish,small-scale rit.
+6,36,-0.034346646525,0.034346646525,script. written,small-scale rit.
+7,36,0.027824170207,0.027824170207,formal script. int.,small-scale rit.
+8,36,0.0064909669353,0.0064909669353,monuments,small-scale rit.
+9,36,0.024717298126,0.024717298126,mass gather,small-scale rit.
+10,36,-0.0069850971554,0.0069850971554,pilgrimages,small-scale rit.
+11,36,-0.13185344531,0.13185344531,afterlife belief,small-scale rit.
+12,36,0.088204351408,0.088204351408,reincarn. karma,small-scale rit.
+13,36,0.14612603983,0.14612603983,human sac.,small-scale rit.
+14,36,-0.077473396419,0.077473396419,supreme god,small-scale rit.
+15,36,-0.072860179847,0.072860179847,sup. monit. prosoc.,small-scale rit.
+16,36,-0.081978727497,0.081978727497,sup. care sex,small-scale rit.
+17,36,-0.094534819034,0.094534819034,sup. care oat,small-scale rit.
+18,36,-0.13771766142,0.13771766142,sup. care rit.,small-scale rit.
+19,36,0.052840274953,0.052840274953,sup. care conv.,small-scale rit.
+20,36,-0.072179299614,0.072179299614,sup. pun. enf. norm,small-scale rit.
+21,36,0.0014722519276,0.0014722519276,sup. pun. afterlife,small-scale rit.
+22,36,-0.11149274638,0.11149274638,sup. pun. this life,small-scale rit.
+23,36,0.0029041678547,0.0029041678547,sup. rew. enf. norm,small-scale rit.
+24,36,-0.035866366017,0.035866366017,sup. rew. afterlife,small-scale rit.
+25,36,-0.08647496431,0.08647496431,sup. rew. this life,small-scale rit.
+26,36,0.037656446913,0.037656446913,messianic,small-scale rit.
+27,36,-0.13753367546,0.13753367546,soc. norms presc.,small-scale rit.
+28,36,-0.024654117884,0.024654117884,conv.-moral dist.,small-scale rit.
+29,36,0.14701132933,0.14701132933,celibacy req.,small-scale rit.
+30,36,0.00042331339607,0.00042331339607,const. sex. act.,small-scale rit.
+31,36,0.0058620469835,0.0058620469835,food taboos,small-scale rit.
+32,36,0.1277879976,0.1277879976,body alt.,small-scale rit.
+33,36,-0.038518366871,0.038518366871,sac. goods,small-scale rit.
+34,36,-0.09958258345,0.09958258345,sac. time,small-scale rit.
+35,36,-0.12318000972,0.12318000972,ethical precepts,small-scale rit.
+1,37,-0.057989388569,0.057989388569,vio. conf. in,large-scale rit.
+2,37,-0.11536420041,0.11536420041,vio. conf. out,large-scale rit.
+3,37,-0.11689682039,0.11689682039,proselytize,large-scale rit.
+4,37,-0.080910132751,0.080910132751,polity enf. obs.,large-scale rit.
+5,37,-0.1143009962,0.1143009962,apos. punish,large-scale rit.
+6,37,-0.027296823996,0.027296823996,script. written,large-scale rit.
+7,37,0.013198169886,0.013198169886,formal script. int.,large-scale rit.
+8,37,0.016748790879,0.016748790879,monuments,large-scale rit.
+9,37,0.035003509437,0.035003509437,mass gather,large-scale rit.
+10,37,-0.019899342413,0.019899342413,pilgrimages,large-scale rit.
+11,37,-0.12085682554,0.12085682554,afterlife belief,large-scale rit.
+12,37,0.07334817908,0.07334817908,reincarn. karma,large-scale rit.
+13,37,0.13995152969,0.13995152969,human sac.,large-scale rit.
+14,37,-0.069459948221,0.069459948221,supreme god,large-scale rit.
+15,37,-0.065284566525,0.065284566525,sup. monit. prosoc.,large-scale rit.
+16,37,-0.073788611878,0.073788611878,sup. care sex,large-scale rit.
+17,37,-0.086186888043,0.086186888043,sup. care oat,large-scale rit.
+18,37,-0.12524577524,0.12524577524,sup. care rit.,large-scale rit.
+19,37,0.060597084572,0.060597084572,sup. care conv.,large-scale rit.
+20,37,-0.067196232823,0.067196232823,sup. pun. enf. norm,large-scale rit.
+21,37,0.0094434496492,0.0094434496492,sup. pun. afterlife,large-scale rit.
+22,37,-0.10158686354,0.10158686354,sup. pun. this life,large-scale rit.
+23,37,-0.0037188926837,0.0037188926837,sup. rew. enf. norm,large-scale rit.
+24,37,-0.029900989137,0.029900989137,sup. rew. afterlife,large-scale rit.
+25,37,-0.072532939772,0.072532939772,sup. rew. this life,large-scale rit.
+26,37,0.047378268165,0.047378268165,messianic,large-scale rit.
+27,37,-0.15596699096,0.15596699096,soc. norms presc.,large-scale rit.
+28,37,-0.0097396198464,0.0097396198464,conv.-moral dist.,large-scale rit.
+29,37,0.13755057552,0.13755057552,celibacy req.,large-scale rit.
+30,37,0.0099444010181,0.0099444010181,const. sex. act.,large-scale rit.
+31,37,-0.0082343406371,0.0082343406371,food taboos,large-scale rit.
+32,37,0.1256371907,0.1256371907,body alt.,large-scale rit.
+33,37,-0.053152558079,0.053152558079,sac. goods,large-scale rit.
+34,37,-0.11056682035,0.11056682035,sac. time,large-scale rit.
+35,37,-0.11205839308,0.11205839308,ethical precepts,large-scale rit.
+36,37,-0.085448872882,0.085448872882,small-scale rit.,large-scale rit.
+1,38,-0.080324060574,0.080324060574,vio. conf. in,group markers
+2,38,-0.10994679863,0.10994679863,vio. conf. out,group markers
+3,38,0.0049449602346,0.0049449602346,proselytize,group markers
+4,38,-0.091007627038,0.091007627038,polity enf. obs.,group markers
+5,38,0.11948416258,0.11948416258,apos. punish,group markers
+6,38,-0.027619929964,0.027619929964,script. written,group markers
+7,38,-0.057359163978,0.057359163978,formal script. int.,group markers
+8,38,0.011929221944,0.011929221944,monuments,group markers
+9,38,0.033412708703,0.033412708703,mass gather,group markers
+10,38,0.0049731446724,0.0049731446724,pilgrimages,group markers
+11,38,0.080754825321,0.080754825321,afterlife belief,group markers
+12,38,0.07524971301,0.07524971301,reincarn. karma,group markers
+13,38,-0.082388778437,0.082388778437,human sac.,group markers
+14,38,-0.062877234912,0.062877234912,supreme god,group markers
+15,38,-0.012731416044,0.012731416044,sup. monit. prosoc.,group markers
+16,38,-0.065028717743,0.065028717743,sup. care sex,group markers
+17,38,-0.0064000065221,0.0064000065221,sup. care oat,group markers
+18,38,-0.12029059323,0.12029059323,sup. care rit.,group markers
+19,38,-0.00087675666419,0.00087675666419,sup. care conv.,group markers
+20,38,-0.051546838953,0.051546838953,sup. pun. enf. norm,group markers
+21,38,0.039682349558,0.039682349558,sup. pun. afterlife,group markers
+22,38,-0.092900343595,0.092900343595,sup. pun. this life,group markers
+23,38,0.053494324708,0.053494324708,sup. rew. enf. norm,group markers
+24,38,-0.018964281399,0.018964281399,sup. rew. afterlife,group markers
+25,38,-0.020612570791,0.020612570791,sup. rew. this life,group markers
+26,38,0.048611418265,0.048611418265,messianic,group markers
+27,38,0.091607921718,0.091607921718,soc. norms presc.,group markers
+28,38,-0.011480070425,0.011480070425,conv.-moral dist.,group markers
+29,38,-0.14693365489,0.14693365489,celibacy req.,group markers
+30,38,0.0087912531467,0.0087912531467,const. sex. act.,group markers
+31,38,0.075421289344,0.075421289344,food taboos,group markers
+32,38,0.11897819593,0.11897819593,body alt.,group markers
+33,38,-0.081111722256,0.081111722256,sac. goods,group markers
+34,38,-0.11003107396,0.11003107396,sac. time,group markers
+35,38,0.0046527351081,0.0046527351081,ethical precepts,group markers
+36,38,-0.089397700492,0.089397700492,small-scale rit.,group markers
+37,38,0.11934991006,0.11934991006,large-scale rit.,group markers
