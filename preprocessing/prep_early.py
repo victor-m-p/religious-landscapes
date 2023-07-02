@@ -9,7 +9,7 @@ import numpy as np
 from fun import p_dist, bin_states
 
 # setup
-n_nodes, n_nan, region_type, rows, entries=38, 5, 'World_Region', 2692, 214
+n_nodes, n_nan, region_type, rows, entries=38, 10, 'World_Region', 3231, 300
 region_map={'World_Region': 'wr', 
             'NGA': 'nga'}
 region_out=region_map[region_type]
@@ -44,7 +44,7 @@ question_shorthand={
     4828: 'supreme god',
     4955: 'sup. monit. prosoc.',
     4964: 'sup. care sex',
-    4969: 'sup. care oat',
+    4969: 'sup. care oath',
     4978: 'sup. care rit.',
     4979: 'sup. care conv.',
     4991: 'sup. pun. enf. norm',

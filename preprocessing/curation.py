@@ -73,7 +73,6 @@ df_expanded.fillna(0, inplace=True) # Fill NA values with 0
 
 # Convert all Q columns to integer
 question_ids = [col for col in df_expanded.columns if col.startswith('Q')]
-
 df_expanded[question_ids] = df_expanded[question_ids].astype(int)
 df_expanded.columns.name = None # verify this 
 
